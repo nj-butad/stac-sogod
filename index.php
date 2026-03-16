@@ -250,7 +250,7 @@ Begin your journey with Saint Thomas Aquinas College – Sogod today.</p>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" id="div_1dd7_26">
                                                     <div class="gdlr-core-text-box-item-content" id="div_1dd7_27">
-                                                        <p>Saint Thomas Aquinas College forms learners through faith, academic discipline, and service, preparing them to lead with competence and integrity in their communities.</p>
+                                                        <p>Inspired by Fides, Virtus, and Excellentia, Saint Thomas Aquinas College forms learners through faith, virtue, and academic excellence for purposeful and service-oriented lives.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -260,11 +260,11 @@ Begin your journey with Saint Thomas Aquinas College – Sogod today.</p>
                                                         <div class="stac-mission-vision">
                                                             <div class="stac-mission-vision__item">
                                                                 <h4>Mission</h4>
-                                                                <p>To provide quality Catholic education that nurtures intellectual excellence, moral responsibility, and a commitment to meaningful service.</p>
+                                                                <p>Inspired by the spirit of Fides, Virtus, and Excellentia, Saint Thomas Aquinas College is commissioned to form learners through faith, virtue, and academic excellence.</p>
                                                             </div>
                                                             <div class="stac-mission-vision__item">
                                                                 <h4>Vision</h4>
-                                                                <p>To be a leading faith-centered institution in Southern Leyte, recognized for forming compassionate, globally aware, and socially responsible graduates.</p>
+                                                                <p>Emboldened by the teachings of St. Thomas Aquinas, we envision a globally recognized institution that fosters transformative leadership through academic innovation, technological advancement, and stewardship for sustainable development in 2030.</p>
                                                             </div>
                                                         </div>
                                                     </div>
