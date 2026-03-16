@@ -11,10 +11,10 @@ require __DIR__ . '/includes/header.php';
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
                                         <section class="stac-hero-slider" id="stac-hero-slider" aria-label="Homepage banner">
-                                            <div class="stac-hero-slide is-active" style="background-image: url('images/stac banner 1.jpg');"></div>
+                                            <div class="stac-hero-slide is-active" style="background-image: url('images/new-banner.jpg');"></div>
+                                            <div class="stac-hero-slide" style="background-image: url('images/new-banner2.png');"></div>
+                                            <div class="stac-hero-slide" style="background-image: url('images/banner.jpg');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/banner2.jpg');"></div>
-                                            <div class="stac-hero-slide" style="background-image: url('images/banner3.jpg');"></div>
-                                            <div class="stac-hero-slide" style="background-image: url('images/banner4.jpg');"></div>
                                             <button class="stac-hero-arrow stac-hero-arrow--prev" type="button" aria-label="Previous slide" data-action="prev">&#8249;</button>
                                             <button class="stac-hero-arrow stac-hero-arrow--next" type="button" aria-label="Next slide" data-action="next">&#8250;</button>
                                         </section>
