@@ -1,0 +1,619 @@
+Asset Audit Report
+==================
+checked_refs: 605
+missing_before: 506
+fixed_ext: 0
+fixed_fallback: 566
+removed_missing_script: 21
+remaining_missing: 21
+
+Change Log
+----------
+about-us.php: fallback image upload/col-icon-3.php -> images/logo.png
+about-us.php: fallback image upload/col-icon-4.php -> images/logo.png
+about-us.php: fallback image upload/about-icon-1.php -> images/logo.png
+about-us.php: fallback image upload/about-icon-2.php -> images/logo.png
+about-us.php: fallback image upload/about-icon-3.php -> images/logo.png
+about-us.php: fallback image upload/banner-2.php -> images/logo.png
+about-us.php: fallback image upload/banner-3.php -> images/logo.png
+apply-to-kingster.php: fallback image upload/col-icon-3.php -> images/logo.png
+apply-to-kingster.php: fallback image upload/col-icon-4.php -> images/logo.png
+apply-to-kingster.php: fallback style image upload/shutterstock_299633474.php -> images/logo.png
+art-science.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+art-science.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+art-science.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+art-science.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+art-science.php: fallback style image upload/tab-1-1.php -> images/logo.png
+art-science.php: fallback style image upload/tab-3.php -> images/logo.png
+art-science.php: fallback style image upload/tab-bg.php -> images/logo.png
+art-science.php: fallback style image upload/tab-bg.php -> images/logo.png
+art-science.php: fallback style image upload/tab-bg.php -> images/logo.png
+art-science.php: fallback style image upload/tab-bg.php -> images/logo.png
+athletics.php: fallback image upload/shutterstock_218235004-150x150.php -> images/logo.png
+athletics.php: fallback image upload/shutterstock_481869205-150x150.php -> images/logo.png
+athletics.php: fallback image upload/shutterstock_361397258-150x150.php -> images/logo.png
+athletics.php: fallback image upload/banner-2.php -> images/logo.png
+athletics.php: fallback image upload/banner-3.php -> images/logo.png
+athletics.php: fallback style image upload/shutterstock_167044400.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/shutterstock_209187682.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/major-bg-2.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/support-image-3.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-1-1.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-3.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-bg.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-bg.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-bg.php -> images/logo.png
+bachelor-of-science-in-business-administration.php: fallback style image upload/tab-bg.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_106223549-800x574.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_135948689-800x560.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_218235004-800x533.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_481869205-800x405.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_361397258-800x533.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_213333985-800x533.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-both-sidebar-with-frame.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_106223549-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_135948689-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_218235004-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_481869205-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_361397258-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_213333985-800x356.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-both-sidebar.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_106223549-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_135948689-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_218235004-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_481869205-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_361397258-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_213333985-600x333.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_135948689-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_218235004-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_481869205-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash-150x150.php -> images/logo.png
+blog-full-left-sidebar-with-frame.php: fallback image upload/austin-neill-247047-unsplash-150x150.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_106223549-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_135948689-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_218235004-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_481869205-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_361397258-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_213333985-800x356.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-left-sidebar.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_106223549-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_135948689-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_218235004-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_481869205-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_361397258-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_213333985-600x333.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_135948689-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_218235004-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_481869205-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash-150x150.php -> images/logo.png
+blog-full-right-sidebar-with-frame.php: fallback image upload/austin-neill-247047-unsplash-150x150.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_106223549-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_135948689-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_218235004-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_481869205-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_361397258-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_213333985-800x356.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/shutterstock_53600224-150x150.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/rawpixel-577480-unsplash-1-150x150.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/pexels-photo-150x150.php -> images/logo.png
+blog-full-right-sidebar.php: fallback image upload/training-train-lime-barbell-39688-150x150.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_135948689-800x362.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_218235004-800x362.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_481869205-800x362.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_361397258-800x362.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_213333985-800x362.php -> images/logo.png
+blog-grid-2-columns-no-space.php: fallback image upload/shutterstock_787201486-800x362.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_135948689-400x377.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_218235004-400x377.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_481869205-400x377.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_361397258-400x377.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_213333985-400x377.php -> images/logo.png
+blog-grid-2-columns.php: fallback image upload/shutterstock_787201486-400x377.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_135948689-800x362.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_218235004-800x362.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_481869205-800x362.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_361397258-800x362.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_213333985-800x362.php -> images/logo.png
+blog-grid-3-columns-no-space.php: fallback image upload/shutterstock_787201486-800x362.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_135948689-400x377.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_218235004-400x377.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_481869205-400x377.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_361397258-400x377.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_213333985-400x377.php -> images/logo.png
+blog-grid-3-columns.php: fallback image upload/shutterstock_787201486-400x377.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_135948689-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_218235004-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_481869205-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_361397258-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_213333985-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_787201486-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_213333985-800x362.php -> images/logo.png
+blog-grid-4-columns-no-space.php: fallback image upload/shutterstock_787201486-800x362.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_135948689-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_218235004-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_481869205-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_361397258-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_213333985-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_787201486-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_213333985-400x377.php -> images/logo.png
+blog-grid-4-columns.php: fallback image upload/shutterstock_787201486-400x377.php -> images/logo.png
+campus-tour.php: fallback style image upload/shutterstock_150681635-1.php -> images/logo.png
+coming-soon.php: fallback style image upload/coming-soon.php -> images/logo.png
+contact-2.php: unresolved js/isotope.php
+contact-2.php: fallback style image upload/image-bg-1.php -> images/logo.png
+contact-2.php: removed missing script js/isotope.php
+contact-3.php: unresolved js/isotope.php
+contact-3.php: fallback style image upload/image-bg-4.php -> images/logo.png
+contact-3.php: fallback style image upload/image-bg-1.php -> images/logo.png
+contact-3.php: removed missing script js/isotope.php
+contact.php: unresolved js/isotope.php
+contact.php: fallback style image upload/image-bg-1.php -> images/logo.png
+contact.php: removed missing script js/isotope.php
+engineering.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+engineering.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+engineering.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+engineering.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+engineering.php: fallback style image upload/tab-1-1.php -> images/logo.png
+engineering.php: fallback style image upload/tab-3.php -> images/logo.png
+engineering.php: fallback style image upload/tab-bg.php -> images/logo.png
+engineering.php: fallback style image upload/tab-bg.php -> images/logo.png
+engineering.php: fallback style image upload/tab-bg.php -> images/logo.png
+engineering.php: fallback style image upload/tab-bg.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-1-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-2-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-3-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-4-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-5-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-6-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/personnel-7-500x500.php -> images/logo.png
+finance-faculty.php: fallback image upload/shutterstock_361957010-500x500.php -> images/logo.png
+finance.php: fallback image upload/shutterstock_447921760-800x292.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_270733466.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_270733466-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_516640027.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_516640027-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_734589535.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_734589535-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_704277943.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_704277943-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_123383902.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_123383902-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_111027356.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_111027356-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_787201486.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_787201486-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_331524281.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_331524281-400x377.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_160526219.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_160526219-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_106223549.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_106223549-800x574.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_294489926.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_294489926-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_481869205.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_481869205-800x405.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_734589535.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_734589535-800x534.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_284650220.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_284650220-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_284650220.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_284650220-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383-300x150.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004-300x200.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992-300x200.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_284650220-300x200.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_450689383-800x400.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_685407757.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_685407757-800x534.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_381527992-800x533.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+gallery.php: fallback image upload/shutterstock_218235004-800x533.php -> images/logo.png
+gallery.php: fallback style image upload/coming-soon.php -> images/logo.png
+give-to-kingster.php: fallback image upload/support-building-800x236.php -> images/logo.png
+give-to-kingster.php: fallback image upload/shutterstock_516640027-400x257.php -> images/logo.png
+give-to-kingster.php: fallback image upload/shutterstock_704277943-800x533.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/shutterstock_209187682.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/shutterstock_299633474.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/support-image-3.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/support-image-4.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/shutterstock_150587615.php -> images/logo.png
+give-to-kingster.php: fallback style image upload/support-image-6.php -> images/logo.png
+hospitality-management.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+hospitality-management.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+hospitality-management.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+hospitality-management.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-1-1.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-3.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-bg.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-bg.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-bg.php -> images/logo.png
+hospitality-management.php: fallback style image upload/tab-bg.php -> images/logo.png
+introduction-to-financial-accounting.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+introduction-to-financial-accounting.php: fallback image upload/shutterstock_361397258-400x363.php -> images/logo.png
+introduction-to-financial-accounting.php: fallback image upload/shutterstock_218235004-800x533.php -> images/logo.png
+john-hagensy-phd.php: fallback image upload/personnel-1.php -> images/logo.png
+john-hagensy-phd.php: fallback image upload/personnel-1-400x257.php -> images/logo.png
+maintenance.php: fallback style image upload/image-bg-4.php -> images/logo.png
+medicine.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+medicine.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+medicine.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+medicine.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+medicine.php: fallback style image upload/tab-1-1.php -> images/logo.png
+medicine.php: fallback style image upload/tab-3.php -> images/logo.png
+medicine.php: fallback style image upload/tab-bg.php -> images/logo.png
+medicine.php: fallback style image upload/tab-bg.php -> images/logo.png
+medicine.php: fallback style image upload/tab-bg.php -> images/logo.png
+medicine.php: fallback style image upload/tab-bg.php -> images/logo.png
+physics.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+physics.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+physics.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+physics.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+physics.php: fallback style image upload/tab-1-1.php -> images/logo.png
+physics.php: fallback style image upload/tab-3.php -> images/logo.png
+physics.php: fallback style image upload/tab-bg.php -> images/logo.png
+physics.php: fallback style image upload/tab-bg.php -> images/logo.png
+physics.php: fallback style image upload/tab-bg.php -> images/logo.png
+physics.php: fallback style image upload/tab-bg.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-2-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-2-columns-no-space.php: unresolved js/isotope.php
+portfolio-2-columns-no-space.php: removed missing script js/isotope.php
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-2-columns-with-frame.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-2-columns-with-frame.php: unresolved js/isotope.php
+portfolio-2-columns-with-frame.php: removed missing script js/isotope.php
+portfolio-2-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_53600224-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/pexels-photo-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/training-train-lime-barbell-39688-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/austin-neill-247047-unsplash-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_218235004-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_361397258-400x533.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_735267403.php -> images/logo.png
+portfolio-2-columns.php: fallback image upload/shutterstock_735267403-400x533.php -> images/logo.png
+portfolio-2-columns.php: unresolved js/isotope.php
+portfolio-2-columns.php: removed missing script js/isotope.php
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-3-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-3-columns-no-space.php: unresolved js/isotope.php
+portfolio-3-columns-no-space.php: removed missing script js/isotope.php
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-3-columns-with-frame.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-3-columns-with-frame.php: unresolved js/isotope.php
+portfolio-3-columns-with-frame.php: removed missing script js/isotope.php
+portfolio-3-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_53600224-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/pexels-photo-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/training-train-lime-barbell-39688-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/austin-neill-247047-unsplash-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_218235004-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_361397258-400x533.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_735267403.php -> images/logo.png
+portfolio-3-columns.php: fallback image upload/shutterstock_735267403-400x533.php -> images/logo.png
+portfolio-3-columns.php: unresolved js/isotope.php
+portfolio-3-columns.php: removed missing script js/isotope.php
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-4-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-4-columns-no-space.php: unresolved js/isotope.php
+portfolio-4-columns-no-space.php: removed missing script js/isotope.php
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_218235004-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_361397258-400x257.php -> images/logo.png
+portfolio-4-columns-with-frame.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-4-columns-with-frame.php: unresolved js/isotope.php
+portfolio-4-columns-with-frame.php: removed missing script js/isotope.php
+portfolio-4-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/shutterstock_53600224-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/pexels-photo-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/training-train-lime-barbell-39688-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/austin-neill-247047-unsplash-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/shutterstock_218235004-400x533.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-4-columns.php: fallback image upload/shutterstock_361397258-400x533.php -> images/logo.png
+portfolio-4-columns.php: unresolved js/isotope.php
+portfolio-4-columns.php: removed missing script js/isotope.php
+portfolio-5-columns-no-space.php: fallback image upload/shutterstock_53600224-400x257.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x257.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/pexels-photo-400x257.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x257.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x257.php -> images/logo.png
+portfolio-5-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-5-columns-no-space.php: unresolved js/isotope.php
+portfolio-5-columns-no-space.php: removed missing script js/isotope.php
+portfolio-5-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_53600224-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/pexels-photo-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/training-train-lime-barbell-39688-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/austin-neill-247047-unsplash-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_218235004-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_361397258-400x377.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_735267403.php -> images/logo.png
+portfolio-5-columns.php: fallback image upload/shutterstock_735267403-400x377.php -> images/logo.png
+portfolio-5-columns.php: unresolved js/isotope.php
+portfolio-5-columns.php: removed missing script js/isotope.php
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-2-columns-no-space.php: unresolved js/isotope.php
+portfolio-masonry-2-columns-no-space.php: removed missing script js/isotope.php
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-2-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-2-columns.php: unresolved js/isotope.php
+portfolio-masonry-2-columns.php: removed missing script js/isotope.php
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-3-columns-no-space.php: unresolved js/isotope.php
+portfolio-masonry-3-columns-no-space.php: removed missing script js/isotope.php
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-3-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-3-columns.php: unresolved js/isotope.php
+portfolio-masonry-3-columns.php: removed missing script js/isotope.php
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-4-columns-no-space.php: unresolved js/isotope.php
+portfolio-masonry-4-columns-no-space.php: removed missing script js/isotope.php
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_53600224-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_53600224.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/rawpixel-577480-unsplash-1-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/rawpixel-577480-unsplash-1.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/pexels-photo-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/pexels-photo.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/training-train-lime-barbell-39688-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/training-train-lime-barbell-39688.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/joshua-fuller-368384-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/joshua-fuller-368384-unsplash.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/austin-neill-247047-unsplash-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/austin-neill-247047-unsplash.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_218235004-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_218235004.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_361397258-400x534.php -> images/logo.png
+portfolio-masonry-4-columns.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+portfolio-masonry-4-columns.php: unresolved js/isotope.php
+portfolio-masonry-4-columns.php: removed missing script js/isotope.php
+price-table.php: fallback style image upload/image-bg-3.php -> images/logo.png
+scholarships.php: fallback image upload/title-icon.php -> images/logo.png
+scholarships.php: fallback image upload/scholarship-student-600x387.php -> images/logo.png
+scholarships.php: fallback style image upload/scholarships-title-bg.php -> images/logo.png
+school-of-law.php: fallback image upload/shutterstock_183400235-400x257.php -> images/logo.png
+school-of-law.php: fallback style image upload/shutterstock_327174593.php -> images/logo.png
+school-of-law.php: fallback style image upload/shutterstock_339364214.php -> images/logo.png
+school-of-law.php: fallback style image upload/shutterstock_547272460.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-1-1.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-3.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-bg.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-bg.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-bg.php -> images/logo.png
+school-of-law.php: fallback style image upload/tab-bg.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_361397258.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_361397258-800x533.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_294489926.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_294489926-800x533.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_519924262.php -> images/logo.png
+singleportfolio.php: fallback image upload/shutterstock_519924262-800x533.php -> images/logo.png
+singleportfolio.php: unresolved js/isotope.php
+singleportfolio.php: removed missing script js/isotope.php
+standard-post-type.php: fallback image upload/avatar.php -> images/logo.png
+standard-post-type.php: fallback image upload/avatar.php -> images/logo.png
+standard-post-type.php: fallback image upload/avatar.php -> images/logo.png

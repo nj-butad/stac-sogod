@@ -1,0 +1,80 @@
+<?php
+$pageTitle = 'University Website';
+$bodyClass = 'home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full  kingster-with-sticky-navigation  kingster-blockquote-style-1 gdlr-core-link-to-lightbox';
+require __DIR__ . '/includes/header.php';
+?>
+
+<div class="gdlr-core-pbf-section">
+                        <div class="gdlr-core-pbf-section-container gdlr-core-container clearfix">
+                            <div class="gdlr-core-pbf-element">
+                                <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-grid-no-space gdlr-core-item-pdlr" style="padding-bottom: 10px ;">
+                                    <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
+                                        <div class="gdlr-core-item-list  gdlr-core-column-12">
+                                            <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
+                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title-icon">
+                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="images/news7.jpg" width="700" height="450"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 16px ;letter-spacing: 1px ;text-transform: none ;"  ><a href="#" >Charity &#038; Voluntary For Social</a></span><span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="images/news8.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
+                                                    <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Charity &#038; Voluntary For Social</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><a href="#" rel="tag">Charity</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Social</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-item-list  gdlr-core-column-12">
+                                            <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
+                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title-icon">
+                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="images/news1.jpg" width="700" height="450"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 16px ;letter-spacing: 1px ;text-transform: none ;"  ><a href="#" >Medical Breakthrough</a></span><span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="images/news2.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
+                                                    <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Medical Breakthrough</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><a href="#" rel="tag">Medical</a></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-item-list  gdlr-core-column-12">
+                                            <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
+                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title-icon">
+                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="images/news3.jpg" width="700" height="450"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 16px ;letter-spacing: 1px ;text-transform: none ;"  ><a href="#" >Family Law Advisory</a></span><span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="images/news4.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
+                                                    <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Family Law Advisory</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><a href="#" rel="tag">Family</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Law</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-item-list  gdlr-core-column-12">
+                                            <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
+                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title-icon">
+                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="images/news5.jpg" width="700" height="450" alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 16px ;letter-spacing: 1px ;text-transform: none ;"  ><a href="#" >Free Training For Senior</a></span><span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="images/news6.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
+                                                    <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Free Training For Senior</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><a href="#" rel="tag">Sport</a></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="gdlr-core-item-list  gdlr-core-column-12">
+                                            <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
+                                                <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-title-icon">
+                                                    <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover"><img src="images/news7.jpg" width="700" height="450" alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-title gdlr-core-title-font " style="font-size: 16px ;letter-spacing: 1px ;text-transform: none ;"  ><a href="#" >Stage Play From Students</a></span><span class="gdlr-core-portfolio-icon-wrap"><a class="gdlr-core-lightgallery gdlr-core-js "  href="images/news8.jpg" data-lightbox-group="gdlr-core-img-group-1"><i class="gdlr-core-portfolio-icon arrow_expand" ></i></a></span></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
+                                                    <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 19px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Stage Play From Students</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption"><a href="#" rel="tag">Acting</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Drama</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<?php
+$extraScripts = <<<'HTML'
+HTML;
+require __DIR__ . '/includes/footer.php';
+?>
