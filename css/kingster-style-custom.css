@@ -1086,6 +1086,9 @@ body .gdlr-core-newsletter-item.gdlr-core-style-rectangle-full .gdlr-core-newsle
 .kingster-header-style-plain.kingster-style-menu-right .kingster-main-menu-right-wrap{display:inline-flex;align-items:center;margin-top:0;vertical-align:middle;}
 .kingster-header-style-plain.kingster-style-menu-right .kingster-main-menu-search{display:flex;align-items:center;justify-content:center;min-height:1em;}
 .kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .kingster-navigation-slide-bar{display:none !important;}
+.kingster-header-style-plain.kingster-style-menu-right.kingster-animate-fixed-navigation .kingster-logo{padding-top:16px;padding-bottom:16px;}
+.kingster-header-style-plain.kingster-style-menu-right.kingster-animate-fixed-navigation .kingster-navigation .sf-menu > li > a{padding-top:24px;padding-bottom:24px;}
+.kingster-header-style-plain.kingster-style-menu-right.kingster-animate-fixed-navigation .kingster-navigation .sf-menu > li > a::after{bottom:14px;}
 }
 @media only screen and (max-width: 1260px){.stac-brand-lockup{gap:12px;max-width:420px;}.stac-brand-text{font-size:18px;}.stac-brand-subtext{font-size:10px;letter-spacing:.08em;}}
 @media only screen and (max-width: 767px){.stac-brand-lockup{gap:8px;max-width:230px;}.stac-brand-text{font-size:12px;letter-spacing:.04em;white-space:normal;line-height:1.1;}.stac-brand-subtext{font-size:9px;letter-spacing:.06em;}}
