@@ -1,0 +1,176 @@
+{
+  "updated_at": "2026-05-21T00:00:00+08:00",
+  "rows": [
+    {
+      "id": "board",
+      "parent_id": "",
+      "unit_name": "Board of Trustees",
+      "unit_type": "Governing Body",
+      "lead_title": "Chairperson",
+      "lead_name": "",
+      "sort_order": 10
+    },
+    {
+      "id": "president",
+      "parent_id": "board",
+      "unit_name": "Office of the School Director / College President",
+      "unit_type": "Executive Office",
+      "lead_title": "School Director / College President",
+      "lead_name": "",
+      "sort_order": 20
+    },
+    {
+      "id": "campus_ministry",
+      "parent_id": "president",
+      "unit_name": "Campus Ministry and Catholic Formation",
+      "unit_type": "Mission Office",
+      "lead_title": "Director / Coordinator",
+      "lead_name": "",
+      "sort_order": 30
+    },
+    {
+      "id": "academic_affairs",
+      "parent_id": "president",
+      "unit_name": "Academic Affairs",
+      "unit_type": "Academic Division",
+      "lead_title": "Vice President / College Dean",
+      "lead_name": "",
+      "sort_order": 40
+    },
+    {
+      "id": "student_affairs",
+      "parent_id": "president",
+      "unit_name": "Student Affairs and Services",
+      "unit_type": "Student Services Division",
+      "lead_title": "Dean / Director",
+      "lead_name": "",
+      "sort_order": 50
+    },
+    {
+      "id": "admin_finance",
+      "parent_id": "president",
+      "unit_name": "Administration and Finance",
+      "unit_type": "Administrative Division",
+      "lead_title": "Vice President / Director",
+      "lead_name": "",
+      "sort_order": 60
+    },
+    {
+      "id": "registrar",
+      "parent_id": "academic_affairs",
+      "unit_name": "Office of the Registrar",
+      "unit_type": "Academic Support Office",
+      "lead_title": "Registrar",
+      "lead_name": "",
+      "sort_order": 10
+    },
+    {
+      "id": "college_programs",
+      "parent_id": "academic_affairs",
+      "unit_name": "College Programs",
+      "unit_type": "Academic Unit",
+      "lead_title": "Program Heads / Coordinators",
+      "lead_name": "",
+      "sort_order": 20
+    },
+    {
+      "id": "basic_education",
+      "parent_id": "academic_affairs",
+      "unit_name": "Basic Education Department",
+      "unit_type": "Academic Unit",
+      "lead_title": "Principal / Academic Head",
+      "lead_name": "",
+      "sort_order": 30
+    },
+    {
+      "id": "library",
+      "parent_id": "academic_affairs",
+      "unit_name": "Library and Learning Resource Center",
+      "unit_type": "Academic Support Office",
+      "lead_title": "Librarian",
+      "lead_name": "",
+      "sort_order": 40
+    },
+    {
+      "id": "guidance",
+      "parent_id": "student_affairs",
+      "unit_name": "Guidance and Counseling",
+      "unit_type": "Student Support Office",
+      "lead_title": "Guidance Counselor / Coordinator",
+      "lead_name": "",
+      "sort_order": 10
+    },
+    {
+      "id": "student_orgs",
+      "parent_id": "student_affairs",
+      "unit_name": "Student Organizations and Campus Activities",
+      "unit_type": "Student Support Office",
+      "lead_title": "Coordinator",
+      "lead_name": "",
+      "sort_order": 20
+    },
+    {
+      "id": "scholarships",
+      "parent_id": "student_affairs",
+      "unit_name": "Scholarships and Student Assistance",
+      "unit_type": "Student Support Office",
+      "lead_title": "Coordinator",
+      "lead_name": "",
+      "sort_order": 30
+    },
+    {
+      "id": "health",
+      "parent_id": "student_affairs",
+      "unit_name": "Health Services",
+      "unit_type": "Student Support Office",
+      "lead_title": "Nurse / Health Coordinator",
+      "lead_name": "",
+      "sort_order": 40
+    },
+    {
+      "id": "accounting",
+      "parent_id": "admin_finance",
+      "unit_name": "Accounting and Finance",
+      "unit_type": "Administrative Office",
+      "lead_title": "Accountant / Finance Officer",
+      "lead_name": "",
+      "sort_order": 10
+    },
+    {
+      "id": "cashier",
+      "parent_id": "admin_finance",
+      "unit_name": "Cashier",
+      "unit_type": "Administrative Office",
+      "lead_title": "Cashier",
+      "lead_name": "",
+      "sort_order": 20
+    },
+    {
+      "id": "hr",
+      "parent_id": "admin_finance",
+      "unit_name": "Human Resources",
+      "unit_type": "Administrative Office",
+      "lead_title": "HR Officer",
+      "lead_name": "",
+      "sort_order": 30
+    },
+    {
+      "id": "it",
+      "parent_id": "admin_finance",
+      "unit_name": "Information Technology",
+      "unit_type": "Administrative Office",
+      "lead_title": "IT Officer / Coordinator",
+      "lead_name": "",
+      "sort_order": 40
+    },
+    {
+      "id": "property",
+      "parent_id": "admin_finance",
+      "unit_name": "Property, Supply, and General Services",
+      "unit_type": "Administrative Office",
+      "lead_title": "Property / Supply Officer",
+      "lead_name": "",
+      "sort_order": 50
+    }
+  ]
+}
