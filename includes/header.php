@@ -26,7 +26,34 @@
     $currentPage = basename(parse_url($_SERVER["REQUEST_URI"] ?? "", PHP_URL_PATH) ?: ($_SERVER["SCRIPT_NAME"] ?? "index.php"));
     $isHome = ($currentPage === "" || $currentPage === "index.php");
     $isAbout = ($currentPage === "about-us.php");
+    $isThomasianIdentity = ($currentPage === "thomasian-identity.php");
     $isContact = in_array($currentPage, ["contact.php", "contact-2.php", "contact-3.php"], true);
+    $aboutMenuLinks = [
+        "Overview" => "about-us.php#about-overview",
+        "Mission & Vision" => "about-us.php#about-mission-vision",
+        "History" => "about-us.php#about-history",
+        "Leadership & Organizational Structure" => "organizational-structure.php",
+    ];
+    $thomasianIdentityLinks = [
+        "Preface" => "thomasian-identity.php#identity-preface",
+        "College Seal" => "thomasian-identity.php#identity-seal",
+        "Prayer" => "thomasian-identity.php#identity-prayer",
+        "Catholic Formation" => "thomasian-identity.php#identity-formation",
+        "St. Thomas Aquinas" => "thomasian-identity.php#identity-patron",
+        "Hymn" => "thomasian-identity.php#identity-hymn",
+    ];
+    $academicsMenuLinks = [
+        "BS Office Administration (BSOA)" => "program-bsoa.php",
+        "BEEd" => "program-beed.php",
+        "BSBA-HRM" => "program-bsba-hrm.php",
+        "BS Information Systems (BSIS)" => "program-bsis.php",
+        "BS Criminology (BSCrim)" => "program-bscrim.php",
+        "Senior High School" => "program-senior-high-school.php",
+        "Junior High School" => "program-junior-high-school.php",
+        "Elementary Education" => "program-elementary-education.php",
+        "Pre-Elementary Education" => "program-pre-elementary-education.php",
+        "TESDA Programs" => "program-tesda.php",
+    ];
     ?>
     <div class="kingster-mobile-header-wrap">
         <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation " id="kingster-mobile-header">
@@ -56,53 +83,25 @@
                             <ul id="menu-main-navigation" class="m-menu">
                                 <li class="menu-item menu-item-home<?= $isHome ? " current-menu-item" : "" ?>"><a href="index.php">Home</a>
                                 </li>
-                                <li class="menu-item<?= $isAbout ? " current-menu-item" : "" ?>"><a href="about-us.php">About</a>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="bachelor-of-science-in-business-administration.php">Academics</a>
+                                <li class="menu-item menu-item-has-children<?= $isAbout ? " current-menu-item" : "" ?>"><a href="about-us.php">About</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-has-children"><a>Undergraduate</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.php">Business Administration</a></li>
-                                                <li class="menu-item"><a href="school-of-law.php">School Of Law</a></li>
-                                                <li class="menu-item"><a href="engineering.php">Engineering</a></li>
-                                                <li class="menu-item"><a href="medicine.php">Medicine</a></li>
-                                                <li class="menu-item"><a href="art-science.php">Art &#038; Science</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children"><a href="#">Graduate Program</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="hospitality-management.php">Hospitality Management</a></li>
-                                                <li class="menu-item"><a href="physics.php">Physics</a></li>
-                                                <li class="menu-item"><a href="#">Chemistry</a></li>
-                                                <li class="menu-item"><a href="#">Music</a></li>
-                                                <li class="menu-item"><a href="#">Computer Science</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-has-children"><a href="#">Resources</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="bachelor-of-science-in-business-administration.php">Department Page</a></li>
-                                                <li class="menu-item"><a href="finance.php">Major Page</a></li>
-                                                <li class="menu-item"><a href="finance-faculty.php">Faculty Page</a></li>
-                                                <li class="menu-item"><a href="john-hagensy-phd.php">Single Instructor</a></li>
-                                                <li class="menu-item"><a href="introduction-to-financial-accounting.php">Single Course</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item"><a href="#">Logo</a></li>
+                                        <?php foreach ($aboutMenuLinks as $label => $href): ?>
+                                            <li class="menu-item"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="apply-to-kingster.php">Admissions</a>
+                                <li class="menu-item menu-item-has-children<?= $isThomasianIdentity ? " current-menu-item" : "" ?>"><a href="thomasian-identity.php">Thomasian Identity</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="apply-to-kingster.php">Apply Now</a></li>
-                                        <li class="menu-item"><a href="campus-tour.php">Campus Tour</a></li>
-                                        <li class="menu-item"><a href="scholarships.php">Scholarships</a></li>                                        <li class="menu-item"><a href="give-to-kingster.php">Support Us</a></li>
-                                        <li class="menu-item"><a href="index.php">Alumni</a></li>
-                                        <li class="menu-item"><a href="index.php">Event Calendar</a></li>
+                                        <?php foreach ($thomasianIdentityLinks as $label => $href): ?>
+                                            <li class="menu-item"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Courses</a>
+                                <li class="menu-item menu-item-has-children"><a href="program-offerings.php">Program Offerings</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="index.php">Course List 1</a></li>
-                                        <li class="menu-item"><a href="index.php">Course List 2</a></li>
+                                        <?php foreach ($academicsMenuLinks as $label => $href): ?>
+                                            <li class="menu-item"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </li>
                                 <li class="menu-item<?= $isContact ? " current-menu-item" : "" ?>"><a href="contact.php">Contact</a></li>
@@ -144,59 +143,25 @@
                                 <ul id="menu-main-navigation-1" class="sf-menu">
                                     <li class="menu-item menu-item-home kingster-normal-menu<?= $isHome ? " current-menu-item" : "" ?>"><a href="index.php">Home</a>
                                     </li>
-                                    <li class="menu-item kingster-normal-menu<?= $isAbout ? " current-menu-item" : "" ?>"><a href="about-us.php">About</a>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children kingster-mega-menu"><a href="bachelor-of-science-in-business-administration.php" class="sf-with-ul-pre">Academics</a>
-                                        <div class="sf-mega sf-mega-full megaimg">
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-has-children" data-size="15"><a class="sf-with-ul-pre">Undergraduate</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item"><a href="bachelor-of-science-in-business-administration.php">Business Administration</a></li>
-                                                        <li class="menu-item"><a href="school-of-law.php">School Of Law</a></li>
-                                                        <li class="menu-item"><a href="engineering.php">Engineering</a></li>
-                                                        <li class="menu-item"><a href="medicine.php">Medicine</a></li>
-                                                        <li class="menu-item"><a href="art-science.php">Art &#038; Science</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Graduate Program</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item"><a href="hospitality-management.php">Hospitality Management</a></li>
-                                                        <li class="menu-item"><a href="physics.php">Physics</a></li>
-                                                        <li class="menu-item"><a href="#">Chemistry</a></li>
-                                                        <li class="menu-item"><a href="#">Music</a></li>
-                                                        <li class="menu-item"><a href="#">Computer Science</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item menu-item-has-children" data-size="15"><a href="#" class="sf-with-ul-pre">Resources</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="menu-item"><a href="bachelor-of-science-in-business-administration.php">Department Page</a></li>
-                                                        <li class="menu-item"><a href="finance.php">Major Page</a></li>
-                                                        <li class="menu-item"><a href="finance-faculty.php">Faculty Page</a></li>
-                                                        <li class="menu-item"><a href="john-hagensy-phd.php">Single Instructor</a></li>
-                                                        <li class="menu-item"><a href="introduction-to-financial-accounting.php">Single Course</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item" data-size="15">
-                                                    <div class="kingster-mega-menu-section-content"><img src="images/stac logo.jpg" id="img_983a_0" alt="" /> <span id="span_983a_0">Academic offerings include 95 majors, 86 minors, and more than 100 in-major specializations</span></div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="apply-to-kingster.php" class="sf-with-ul-pre">Admissions</a>
+                                    <li class="menu-item menu-item-has-children kingster-normal-menu<?= $isAbout ? " current-menu-item" : "" ?>"><a href="about-us.php" class="sf-with-ul-pre">About</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item" data-size="60"><a href="apply-to-kingster.php">Apply Now</a></li>
-                                            <li class="menu-item" data-size="60"><a href="campus-tour.php">Campus Tour</a></li>
-                                            <li class="menu-item" data-size="60"><a href="scholarships.php">Scholarships</a></li>
-                                            
-                                            <li class="menu-item" data-size="60"><a href="give-to-kingster.php">Support Us</a></li>
-                                            <li class="menu-item" data-size="60"><a href="index.php">Alumni</a></li>
-                                            <li class="menu-item" data-size="60"><a href="index.php">Event Calendar</a></li>
+                                            <?php foreach ($aboutMenuLinks as $label => $href): ?>
+                                                <li class="menu-item" data-size="60"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                            <?php endforeach; ?>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Courses</a>
+                                    <li class="menu-item menu-item-has-children kingster-normal-menu<?= $isThomasianIdentity ? " current-menu-item" : "" ?>"><a href="thomasian-identity.php" class="sf-with-ul-pre">Thomasian Identity</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item" data-size="60"><a href="index.php">Course List 1</a></li>
-                                            <li class="menu-item" data-size="60"><a href="index.php">Course List 2</a></li>
+                                            <?php foreach ($thomasianIdentityLinks as $label => $href): ?>
+                                                <li class="menu-item" data-size="60"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="program-offerings.php" class="sf-with-ul-pre">Program Offerings</a>
+                                        <ul class="sub-menu">
+                                            <?php foreach ($academicsMenuLinks as $label => $href): ?>
+                                                <li class="menu-item" data-size="60"><a href="<?= htmlspecialchars($href, ENT_QUOTES, "UTF-8") ?>"><?= htmlspecialchars($label, ENT_QUOTES, "UTF-8") ?></a></li>
+                                            <?php endforeach; ?>
                                         </ul>
                                     </li>
                                     <li class="menu-item kingster-normal-menu<?= $isContact ? " current-menu-item" : "" ?>"><a href="contact.php">Contact</a></li>

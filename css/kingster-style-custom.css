@@ -1071,6 +1071,22 @@ body .gdlr-core-newsletter-item.gdlr-core-style-rectangle-full .gdlr-core-newsle
 .stac-brand-subtext{display:block;margin-top:2px;color:#4a4a4a;font-family:"Playfair Display", serif;font-size:12px;font-weight:400;letter-spacing:.12em;line-height:1.1;text-transform:uppercase;}
 .kingster-animate-fixed-navigation .stac-brand-text{font-size:18px;}
 .kingster-animate-fixed-navigation .stac-brand-subtext{font-size:10px;}
+@media only screen and (min-width: 768px){
+.kingster-header-style-plain.kingster-style-menu-right .kingster-header-container-inner{display:flex;align-items:center;justify-content:space-between;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-logo,
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation{float:none;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-logo{display:flex;align-items:center;flex:0 0 auto;padding-top:22px;padding-bottom:22px;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation{display:flex;align-items:center;justify-content:flex-end;flex:1 1 auto;padding-top:0;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .sf-menu > li > a{position:relative;padding-top:32px;padding-bottom:32px;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .sf-menu > li > a::after{content:"";position:absolute;left:12px;right:12px;bottom:20px;border-bottom:5px solid #f8eb20;opacity:0;transform:scaleX(.6);transform-origin:center;transition:opacity .2s ease,transform .2s ease;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .sf-menu > li:hover > a::after,
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .sf-menu > li.current-menu-item > a::after,
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .sf-menu > li.current-menu-ancestor > a::after{opacity:1;transform:scaleX(1);}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-main-menu{display:flex;align-items:center;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-main-menu-right-wrap{display:inline-flex;align-items:center;margin-top:0;vertical-align:middle;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-main-menu-search{display:flex;align-items:center;justify-content:center;min-height:1em;}
+.kingster-header-style-plain.kingster-style-menu-right .kingster-navigation .kingster-navigation-slide-bar{display:none !important;}
+}
 @media only screen and (max-width: 1260px){.stac-brand-lockup{gap:12px;max-width:420px;}.stac-brand-text{font-size:18px;}.stac-brand-subtext{font-size:10px;letter-spacing:.08em;}}
 @media only screen and (max-width: 767px){.stac-brand-lockup{gap:8px;max-width:230px;}.stac-brand-text{font-size:12px;letter-spacing:.04em;white-space:normal;line-height:1.1;}.stac-brand-subtext{font-size:9px;letter-spacing:.06em;}}
 .stac-home-news-grid{background:#fff;}
@@ -1114,13 +1130,15 @@ color:#fff;}
 @media only screen and (max-width: 991px){.stac-elevated-feature{margin:-28px auto 0;padding:0 18px 30px;}.stac-elevated-feature::before{inset:0 18px 30px;}.stac-apply-split{grid-template-columns:1fr;}.stac-apply-split__media,.stac-apply-split__content{min-height:420px;}.stac-apply-split__content-inner{padding:56px 34px 48px;}}
 @media only screen and (max-width: 767px){.stac-elevated-feature{margin:0 auto;padding:0 0 22px;border-radius:0;overflow:visible;}.stac-elevated-feature::before{display:none;}.stac-services-strip{padding:24px 18px 16px;border-radius:0;}.stac-services-strip__inner{grid-template-columns:1fr;gap:18px;}.stac-service-card{gap:14px;}.stac-service-card__copy h3{font-size:17px;}.stac-service-card__copy p{font-size:15px;}.stac-apply-split{border-radius:0;}.stac-apply-split__media{min-height:280px;}.stac-apply-split__content{min-height:auto;}.stac-apply-split__content-inner{padding:40px 22px 34px;}.stac-apply-split__content h3{font-size:24px;}.stac-apply-split__eyebrow{font-size:17px;}.stac-apply-split__content p{font-size:16px;line-height:1.7;}}
 .stac-about-page{background:linear-gradient(180deg,#f5f9ff 0%,#ffffff 18%,#f7fbff 100%);}
+.stac-about-page [id]{scroll-margin-top:140px;}
+.stac-about-page{--stac-about-container-max:1360px;--stac-about-container-pad:20px;}
 .stac-section-kicker{display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;color:#1798da;font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;}
 .stac-about-hero{position:relative;overflow:hidden;background:
 linear-gradient(135deg,rgba(5,22,56,.94) 0%,rgba(12,42,96,.90) 52%,rgba(23,152,218,.84) 100%),
 url('../upload/about-bg-1.jpg') center center/cover no-repeat;
-padding:96px 24px 88px;}
+padding:96px var(--stac-about-container-pad) 88px;}
 .stac-about-hero::before{content:"";position:absolute;inset:auto auto -140px -100px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(248,235,32,.28) 0%,rgba(248,235,32,0) 72%);pointer-events:none;}
-.stac-about-hero__inner{position:relative;z-index:1;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(320px,.8fr);gap:36px;align-items:end;}
+.stac-about-hero__inner{position:relative;z-index:1;max-width:var(--stac-about-container-max);margin:0 auto;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(320px,.8fr);gap:36px;align-items:end;}
 .stac-about-hero__eyebrow{display:inline-block;margin-bottom:16px;color:#f8eb20;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;}
 .stac-about-hero__copy h1{margin:0 0 18px;color:#fff;font-size:54px;line-height:1.06;letter-spacing:-.02em;}
 .stac-about-hero__copy p{max-width:720px;margin:0;color:rgba(255,255,255,.84);font-size:20px;line-height:1.75;}
@@ -1128,13 +1146,31 @@ padding:96px 24px 88px;}
 .stac-about-hero__label{display:block;margin-bottom:10px;color:#f8eb20;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;}
 .stac-about-hero__panel strong{display:block;margin-bottom:12px;color:#fff;font-size:30px;line-height:1.15;}
 .stac-about-hero__panel p{margin:0;color:rgba(255,255,255,.82);font-size:17px;line-height:1.7;}
-.stac-about-intro,.stac-about-purpose,.stac-about-values,.stac-about-home-link{max-width:1200px;margin:0 auto;padding:78px 24px 0;}
+.stac-about-intro,.stac-about-purpose,.stac-about-values,.stac-about-home-link{max-width:var(--stac-about-container-max);margin:0 auto;padding:78px var(--stac-about-container-pad) 0;}
 .stac-about-intro__header{max-width:760px;margin-bottom:30px;}
 .stac-about-intro__header h2,.stac-about-purpose__card h2,.stac-about-values__header h2,.stac-about-home-link__inner h2{margin:0;color:#1798da;font-size:42px;line-height:1.1;letter-spacing:-.02em;}
 .stac-about-intro__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
 .stac-about-intro__card{padding:30px 28px;background:#fff;border:1px solid #dbe8f6;border-radius:22px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
 .stac-about-intro__card h3{margin:0 0 12px;color:#1798da;font-size:24px;line-height:1.2;}
 .stac-about-intro__card p,.stac-about-purpose__lead,.stac-about-purpose__vision,.stac-about-purpose__item p,.stac-about-values__header p,.stac-about-values__card p,.stac-about-home-link__inner p{margin:0;color:#516173;font-size:17px;line-height:1.8;}
+.stac-about-preface,.stac-about-seal,.stac-about-department,.stac-about-patron{max-width:var(--stac-about-container-max);margin:0 auto;padding:78px var(--stac-about-container-pad) 0;}
+.stac-about-preface__grid,.stac-about-seal__layout,.stac-about-patron__grid{display:grid;gap:24px;}
+.stac-about-preface__grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+.stac-about-preface__card,.stac-about-seal__fact,.stac-about-department__card,.stac-about-patron__card{padding:30px 28px;background:#fff;border:1px solid #dbe8f6;border-radius:24px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-about-preface__card h2,.stac-about-seal__header h2,.stac-about-department__header h2,.stac-about-patron__header h2{margin:0 0 14px;color:#1798da;font-size:42px;line-height:1.1;letter-spacing:-.02em;}
+.stac-about-preface__card p,.stac-about-seal__header p,.stac-about-seal__fact p,.stac-about-department__header p,.stac-about-department__list li,.stac-about-patron__header p,.stac-about-patron__card p{margin:0;color:#516173;font-size:17px;line-height:1.8;}
+.stac-about-preface__card p + p,.stac-about-patron__card p + p{margin-top:14px;}
+.stac-about-preface__card--accent,.stac-about-patron__card--accent{background:linear-gradient(160deg,#0d2458 0%,#163c7e 58%,#1798da 100%);border-color:transparent;}
+.stac-about-preface__card--accent h2,.stac-about-preface__card--accent p,.stac-about-preface__card--accent .stac-section-kicker,.stac-about-patron__card--accent h3,.stac-about-patron__card--accent p{color:#fff;}
+.stac-about-seal__header,.stac-about-department__header,.stac-about-patron__header{max-width:840px;margin-bottom:30px;}
+.stac-about-seal__layout{grid-template-columns:minmax(240px,320px) minmax(0,1fr);align-items:start;}
+.stac-about-seal__image{padding:28px;background:#fff;border:1px solid #dbe8f6;border-radius:24px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-about-seal__image img{display:block;width:100%;height:auto;object-fit:contain;}
+.stac-about-seal__content{display:grid;gap:18px;}
+.stac-about-seal__fact h3,.stac-about-patron__card h3{margin:0 0 12px;color:#1798da;font-size:24px;line-height:1.2;}
+.stac-about-department__list{margin:0;padding-left:22px;}
+.stac-about-department__list li{margin-bottom:12px;}
+.stac-about-patron__grid{grid-template-columns:repeat(3,minmax(0,1fr));}
 .stac-about-purpose__grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:26px;align-items:stretch;}
 .stac-about-purpose__card{padding:36px 34px;background:#fff;border-radius:28px;box-shadow:0 22px 60px rgba(14,32,73,.08);}
 .stac-about-purpose__card--mission{background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%);border:1px solid #d8e6f6;}
@@ -1150,18 +1186,122 @@ color:#fff;}
 .stac-about-purpose__note span{color:#f8eb20;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;}
 .stac-about-purpose__note strong{color:#fff;font-size:19px;line-height:1.5;}
 .stac-about-values__header{max-width:760px;margin-bottom:32px;}
-.stac-about-values__layout{display:grid;grid-template-columns:120px minmax(0,1fr);gap:28px;align-items:start;}
-.stac-about-values__acrostic{display:grid;gap:10px;padding:20px 0;}
-.stac-about-values__acrostic span{display:grid;place-items:center;width:72px;height:72px;background:linear-gradient(180deg,#1798da 0%,#123474 100%);color:#fff;font-size:30px;font-weight:700;border-radius:20px;box-shadow:0 16px 36px rgba(18,52,116,.22);}
+.stac-about-values__acrostic{display:grid;grid-template-columns:repeat(9,minmax(56px,72px));gap:10px;margin-bottom:28px;}
+.stac-about-values__acrostic span{display:grid;place-items:center;height:72px;background:linear-gradient(180deg,#1798da 0%,#123474 100%);color:#fff;font-size:30px;font-weight:700;border-radius:20px;box-shadow:0 16px 36px rgba(18,52,116,.22);}
 .stac-about-values__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
-.stac-about-values__card{padding:26px 24px;background:#fff;border:1px solid #dbe8f6;border-radius:22px;box-shadow:0 18px 45px rgba(14,32,73,.07);}
-.stac-about-values__card h3{margin:0 0 10px;color:#1798da;font-size:23px;line-height:1.2;}
+.stac-about-values__card{display:flex;align-items:center;gap:18px;min-height:118px;padding:24px 24px;background:#fff;border:1px solid #dbe8f6;border-radius:22px;box-shadow:0 18px 45px rgba(14,32,73,.07);}
+.stac-about-values__initial{display:grid;place-items:center;flex:0 0 54px;width:54px;height:54px;background:linear-gradient(180deg,#eaf5ff 0%,#d6ebff 100%);color:#1798da;font-size:24px;font-weight:700;border-radius:16px;}
+.stac-about-values__card h3{margin:0;color:#1798da;font-size:23px;line-height:1.2;}
+.stac-about-prayer{max-width:var(--stac-about-container-max);margin:0 auto;padding:78px var(--stac-about-container-pad) 0;}
+.stac-about-prayer__header{max-width:780px;margin-bottom:28px;}
+.stac-about-prayer__header h2{margin:0;color:#1798da;font-size:42px;line-height:1.1;letter-spacing:-.02em;}
+.stac-about-prayer__card{padding:34px 32px;background:linear-gradient(160deg,#f7fbff 0%,#ffffff 100%);border:1px solid #dbe8f6;border-radius:28px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-about-prayer__card p{margin:0 0 18px;color:#516173;font-size:18px;line-height:1.9;}
+.stac-about-prayer__card p:last-child{margin-bottom:0;}
+.stac-about-identity,.stac-about-history,.stac-about-programs,.stac-about-hymn{max-width:var(--stac-about-container-max);margin:0 auto;padding:78px var(--stac-about-container-pad) 0;}
+.stac-about-identity__header,.stac-about-history__header,.stac-about-hymn__header{max-width:780px;margin-bottom:32px;}
+.stac-about-identity__header h2,.stac-about-history__header h2,.stac-about-programs__card h2,.stac-about-hymn__header h2{margin:0;color:#1798da;font-size:42px;line-height:1.1;letter-spacing:-.02em;}
+.stac-about-identity__header p,.stac-about-history__header p,.stac-about-hymn__header p,.stac-about-objectives__card p,.stac-about-history__entry p,.stac-about-programs__card p,.stac-about-hymn__verse p{margin:0;color:#516173;font-size:17px;line-height:1.8;}
+.stac-about-identity__grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:24px;margin-bottom:24px;}
+.stac-about-identity__card,.stac-about-objectives__card,.stac-about-history__entry,.stac-about-programs__card,.stac-about-hymn__verse{padding:30px 28px;background:#fff;border:1px solid #dbe8f6;border-radius:22px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-about-identity__card--motto{background:linear-gradient(160deg,#0d2458 0%,#163c7e 58%,#1798da 100%);border-color:transparent;}
+.stac-about-identity__card--motto h3,.stac-about-identity__card--motto p,.stac-about-identity__card--motto .stac-about-identity__label{color:#fff;}
+.stac-about-identity__label,.stac-about-history__years{display:inline-block;margin-bottom:12px;color:#1798da;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;}
+.stac-about-identity__card h3,.stac-about-objectives__card h3,.stac-about-history__entry h3,.stac-about-hymn__verse h3{margin:0 0 12px;color:#1798da;font-size:24px;line-height:1.2;}
+.stac-about-objectives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+.stac-about-objectives__card ul,.stac-about-programs__list{margin:0;padding-left:20px;color:#516173;}
+.stac-about-objectives__card li,.stac-about-programs__list li{margin-bottom:12px;font-size:17px;line-height:1.7;}
+.stac-about-history__overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:26px;}
+.stac-about-history__milestone{padding:20px 22px;background:#f3f8ff;border:1px solid #d8e6f6;border-radius:18px;}
+.stac-about-history__milestone strong{display:block;margin-bottom:8px;color:#1798da;font-size:26px;line-height:1.1;}
+.stac-about-history__milestone span{display:block;color:#516173;font-size:16px;line-height:1.6;}
+.stac-about-history__timeline{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+.stac-about-programs__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+.stac-about-programs__card--accent{background:linear-gradient(160deg,rgba(8,24,58,.96) 0%,rgba(16,42,92,.94) 62%,rgba(23,152,218,.88) 100%);border-color:transparent;}
+.stac-about-programs__card--accent h2,.stac-about-programs__card--accent p,.stac-about-programs__card--accent .stac-section-kicker{color:#fff;}
+.stac-about-hymn__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
 .stac-about-home-link{padding-bottom:88px;}
 .stac-about-home-link__inner{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:34px 36px;background:linear-gradient(135deg,#0d2458 0%,#163c7e 55%,#1798da 100%);border-radius:28px;box-shadow:0 24px 56px rgba(9,29,71,.22);}
 .stac-about-home-link__inner h2,.stac-about-home-link__inner p{color:#fff;}
 .stac-about-home-link__inner a{display:inline-block;padding:15px 26px;background:#f8eb20;color:#123474;font-size:15px;font-weight:700;border-radius:999px;white-space:nowrap;}
 .stac-about-home-link__inner a:hover{background:#fff;color:#123474;}
-@media only screen and (max-width: 1100px){.stac-about-hero__inner,.stac-about-purpose__grid{grid-template-columns:1fr;}.stac-about-intro__grid,.stac-about-values__grid{grid-template-columns:repeat(2,minmax(0,1fr));}.stac-about-values__layout{grid-template-columns:1fr;}.stac-about-values__acrostic{grid-template-columns:repeat(9,minmax(50px,72px));overflow:auto;padding-bottom:8px;}}
-@media only screen and (max-width: 767px){.stac-about-hero{padding:72px 18px 64px;}.stac-about-hero__copy h1{font-size:36px;}.stac-about-hero__copy p,.stac-about-hero__panel p,.stac-about-intro__card p,.stac-about-purpose__lead,.stac-about-purpose__vision,.stac-about-purpose__item p,.stac-about-values__header p,.stac-about-values__card p,.stac-about-home-link__inner p{font-size:16px;line-height:1.7;}.stac-about-hero__panel{padding:24px 22px;border-radius:20px;}.stac-about-intro,.stac-about-purpose,.stac-about-values,.stac-about-home-link{padding:56px 18px 0;}.stac-about-intro__header h2,.stac-about-purpose__card h2,.stac-about-values__header h2,.stac-about-home-link__inner h2{font-size:31px;}.stac-about-intro__grid,.stac-about-values__grid{grid-template-columns:1fr;}.stac-about-purpose__card,.stac-about-home-link__inner{padding:28px 22px;}.stac-about-values__acrostic{grid-template-columns:repeat(9,56px);gap:8px;}.stac-about-values__acrostic span{width:56px;height:56px;font-size:24px;border-radius:16px;}.stac-about-home-link{padding-bottom:64px;}.stac-about-home-link__inner{align-items:flex-start;flex-direction:column;}}
+.stac-program-page{background:linear-gradient(180deg,#f5f9ff 0%,#ffffff 18%,#f7fbff 100%);--stac-program-container-max:1360px;--stac-program-container-pad:20px;}
+.stac-program-page__hero{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(5,22,56,.94) 0%,rgba(12,42,96,.90) 52%,rgba(23,152,218,.84) 100%),url('../upload/about-bg-1.jpg') center center/cover no-repeat;padding:96px var(--stac-program-container-pad) 88px;}
+.stac-program-page__hero-inner,.stac-program-page__content,.stac-program-page__details{max-width:var(--stac-program-container-max);margin:0 auto;}
+.stac-program-page__hero-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,.75fr);gap:36px;align-items:end;}
+.stac-program-page__eyebrow{display:inline-block;margin-bottom:16px;color:#f8eb20;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;}
+.stac-program-page__hero-copy h1{margin:0 0 18px;color:#fff;font-size:54px;line-height:1.06;letter-spacing:-.02em;}
+.stac-program-page__hero-copy p{max-width:760px;margin:0;color:rgba(255,255,255,.86);font-size:20px;line-height:1.75;}
+.stac-program-page__hero-panel{padding:30px 32px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:24px;backdrop-filter:blur(10px);box-shadow:0 24px 60px rgba(6,18,44,.22);}
+.stac-program-page__hero-label{display:block;margin-bottom:10px;color:#f8eb20;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;}
+.stac-program-page__hero-panel strong{display:block;margin-bottom:12px;color:#fff;font-size:30px;line-height:1.15;}
+.stac-program-page__hero-panel p{margin:0;color:rgba(255,255,255,.82);font-size:17px;line-height:1.7;}
+.stac-program-page__content,.stac-program-page__details{padding:78px var(--stac-program-container-pad) 0;}
+.stac-program-page__grid,.stac-program-page__details-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+.stac-program-page__catalog{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+.stac-program-page__card{padding:34px 32px;background:#fff;border:1px solid #dbe8f6;border-radius:28px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-program-page__catalog-card{padding:30px 28px;background:#fff;border:1px solid #dbe8f6;border-radius:24px;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-program-page__card h2{margin:0 0 14px;color:#1798da;font-size:40px;line-height:1.08;letter-spacing:-.02em;}
+.stac-program-page__catalog-card h2{margin:0 0 14px;color:#1798da;font-size:28px;line-height:1.18;}
+.stac-program-page__card p{margin:0;color:#516173;font-size:17px;line-height:1.8;}
+.stac-program-page__catalog-card a{display:inline-block;padding:12px 18px;background:#1798da;color:#fff;border-radius:999px;font-size:14px;font-weight:700;}
+.stac-program-page__card--accent{background:linear-gradient(160deg,rgba(8,24,58,.96) 0%,rgba(16,42,92,.94) 62%,rgba(23,152,218,.88) 100%);border-color:transparent;}
+.stac-program-page__card--accent h2,.stac-program-page__card--accent p,.stac-program-page__card--accent .stac-section-kicker{color:#fff;}
+.stac-program-page__links{margin:0;padding-left:20px;color:#516173;}
+.stac-program-page__links li{margin-bottom:12px;font-size:17px;line-height:1.7;}
+.stac-program-page__links a{color:#1798da;font-weight:600;}
+.stac-org-page{background:linear-gradient(180deg,#f5f9ff 0%,#ffffff 18%,#f7fbff 100%);--stac-org-container-max:1360px;--stac-org-container-pad:20px;}
+.stac-org-page__hero{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(5,22,56,.94) 0%,rgba(12,42,96,.90) 52%,rgba(23,152,218,.84) 100%),url('../upload/about-bg-2.jpg') center center/cover no-repeat;padding:96px var(--stac-org-container-pad) 88px;}
+.stac-org-page__hero-inner,.stac-org-page__summary,.stac-org-page__chart{max-width:var(--stac-org-container-max);margin:0 auto;}
+.stac-org-page__hero-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,.75fr);gap:36px;align-items:end;}
+.stac-org-page__eyebrow,.stac-org-admin__eyebrow{display:inline-block;margin-bottom:16px;color:#f8eb20;font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;}
+.stac-org-page__hero-copy h1,.stac-org-admin__hero-inner h1{margin:0 0 18px;color:#fff;font-size:54px;line-height:1.06;letter-spacing:-.02em;}
+.stac-org-page__hero-copy p,.stac-org-admin__hero-inner p{max-width:760px;margin:0;color:rgba(255,255,255,.86);font-size:20px;line-height:1.75;}
+.stac-org-page__hero-panel{padding:30px 32px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:24px;backdrop-filter:blur(10px);box-shadow:0 24px 60px rgba(6,18,44,.22);}
+.stac-org-page__hero-label{display:block;margin-bottom:10px;color:#f8eb20;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;}
+.stac-org-page__hero-panel strong{display:block;margin-bottom:12px;color:#fff;font-size:30px;line-height:1.15;}
+.stac-org-page__hero-panel p{margin:0;color:rgba(255,255,255,.82);font-size:17px;line-height:1.7;}
+.stac-org-page__summary,.stac-org-page__chart{padding:78px var(--stac-org-container-pad) 0;}
+.stac-org-page__summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;}
+.stac-org-page__summary-card,.stac-org-admin__content,.stac-org-tree__card{background:#fff;border:1px solid #dbe8f6;box-shadow:0 18px 50px rgba(14,32,73,.08);}
+.stac-org-page__summary-card{padding:30px 28px;border-radius:24px;}
+.stac-org-page__summary-card h2,.stac-org-page__chart-header h2{margin:0 0 12px;color:#1798da;font-size:40px;line-height:1.08;letter-spacing:-.02em;}
+.stac-org-page__summary-card p,.stac-org-page__chart-header p,.stac-org-tree__card p,.stac-org-admin__topbar p,.stac-org-admin__hero-inner p{margin:0;color:#516173;font-size:17px;line-height:1.8;}
+.stac-org-page__chart-header{max-width:840px;margin-bottom:30px;}
+.stac-org-tree__root{display:grid;justify-items:center;}
+.stac-org-tree__card{padding:24px 22px;border-radius:22px;min-width:min(100%,280px);text-align:center;}
+.stac-org-tree__card--root{max-width:340px;background:linear-gradient(160deg,#0d2458 0%,#163c7e 58%,#1798da 100%);border-color:transparent;}
+.stac-org-tree__card--root h3,.stac-org-tree__card--root p,.stac-org-tree__card--root .stac-org-tree__type{color:#fff;}
+.stac-org-tree__type{display:inline-block;margin-bottom:10px;color:#1798da;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;}
+.stac-org-tree__card h3{margin:0 0 8px;color:#1798da;font-size:24px;line-height:1.2;}
+.stac-org-tree__card p strong,.stac-org-tree__card p span{display:block;}
+.stac-org-tree__card p strong{color:#2d466d;font-size:16px;}
+.stac-org-tree__card p span{margin-top:4px;}
+.stac-org-tree__level{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;width:100%;margin-top:26px;}
+.stac-org-tree__node{position:relative;display:grid;gap:18px;}
+.stac-org-tree__node > .stac-org-tree__level{padding-top:8px;}
+.stac-org-admin{background:linear-gradient(180deg,#f5f9ff 0%,#ffffff 18%,#f7fbff 100%);--stac-org-admin-max:1360px;--stac-org-admin-pad:20px;}
+.stac-org-admin__hero{background:linear-gradient(135deg,rgba(5,22,56,.94) 0%,rgba(12,42,96,.90) 52%,rgba(23,152,218,.84) 100%);padding:88px var(--stac-org-admin-pad) 72px;}
+.stac-org-admin__hero-inner,.stac-org-admin__content{max-width:var(--stac-org-admin-max);margin:0 auto;}
+.stac-org-admin__content{margin-top:42px;margin-bottom:72px;padding:34px 32px;border-radius:28px;}
+.stac-org-admin__topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:24px;}
+.stac-org-admin__topbar h2{margin:0 0 10px;color:#1798da;font-size:36px;line-height:1.1;}
+.stac-org-admin__preview-link,.stac-org-admin__button{display:inline-block;padding:14px 22px;border-radius:999px;font-size:15px;font-weight:700;}
+.stac-org-admin__preview-link,.stac-org-admin__button{background:#1798da;color:#fff;border:0;}
+.stac-org-admin__button--secondary{background:#e8f3ff;color:#1798da;}
+.stac-org-admin__button--danger{background:#fbe7e7;color:#9e2323;}
+.stac-org-admin__feedback{margin-bottom:18px;padding:16px 18px;background:#eef8ff;border:1px solid #cfe5fb;border-radius:16px;color:#2d466d;font-weight:600;}
+.stac-org-admin__actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px;}
+.stac-org-admin__rows{display:grid;gap:18px;}
+.stac-org-admin__row{padding:20px;background:#f9fbff;border:1px solid #dbe8f6;border-radius:20px;}
+.stac-org-admin__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 18px;}
+.stac-org-admin__grid label{display:grid;gap:8px;}
+.stac-org-admin__grid span{color:#2d466d;font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;}
+.stac-org-admin__grid input,.stac-org-admin__grid select{width:100%;padding:14px 14px;border:1px solid #cfe0f3;border-radius:14px;background:#fff;color:#2d466d;font-size:15px;}
+.stac-org-admin__remove-row{margin-top:16px;background:transparent;border:0;color:#9e2323;font-size:14px;font-weight:700;cursor:pointer;}
+@media only screen and (max-width: 1100px){.stac-about-hero__inner,.stac-about-purpose__grid,.stac-about-programs__grid,.stac-about-preface__grid,.stac-about-seal__layout{grid-template-columns:1fr;}.stac-about-intro__grid,.stac-about-values__grid,.stac-about-hymn__grid,.stac-about-patron__grid{grid-template-columns:repeat(2,minmax(0,1fr));}.stac-about-identity__grid,.stac-about-objectives,.stac-about-history__timeline{grid-template-columns:1fr;}.stac-about-values__acrostic{overflow:auto;padding-bottom:8px;}.stac-about-history__overview{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media only screen and (max-width: 1100px){.stac-program-page__hero-inner,.stac-program-page__grid,.stac-program-page__details-grid,.stac-program-page__catalog{grid-template-columns:1fr;}}
+@media only screen and (max-width: 1100px){.stac-org-page__hero-inner,.stac-org-page__summary-grid,.stac-org-admin__grid{grid-template-columns:1fr;}.stac-org-admin__topbar{flex-direction:column;}}
+@media only screen and (max-width: 767px){.stac-about-hero{padding:72px 18px 64px;}.stac-about-hero__copy h1,.stac-program-page__hero-copy h1,.stac-org-page__hero-copy h1,.stac-org-admin__hero-inner h1{font-size:36px;}.stac-about-hero__copy p,.stac-about-hero__panel p,.stac-about-intro__card p,.stac-about-purpose__lead,.stac-about-purpose__vision,.stac-about-purpose__item p,.stac-about-values__header p,.stac-about-prayer__card p,.stac-about-identity__header p,.stac-about-history__header p,.stac-about-hymn__header p,.stac-about-objectives__card p,.stac-about-history__entry p,.stac-about-programs__card p,.stac-about-hymn__verse p,.stac-about-home-link__inner p,.stac-about-preface__card p,.stac-about-seal__header p,.stac-about-seal__fact p,.stac-about-department__header p,.stac-about-department__list li,.stac-about-patron__header p,.stac-about-patron__card p,.stac-program-page__hero-copy p,.stac-program-page__hero-panel p,.stac-program-page__card p,.stac-program-page__links li,.stac-org-page__hero-copy p,.stac-org-page__hero-panel p,.stac-org-page__summary-card p,.stac-org-page__chart-header p,.stac-org-tree__card p,.stac-org-admin__hero-inner p,.stac-org-admin__topbar p{font-size:16px;line-height:1.7;}.stac-about-hero__panel,.stac-program-page__hero-panel,.stac-org-page__hero-panel{padding:24px 22px;border-radius:20px;}.stac-program-page__hero,.stac-org-page__hero,.stac-org-admin__hero{padding:72px 18px 64px;}.stac-about-intro,.stac-about-purpose,.stac-about-values,.stac-about-prayer,.stac-about-identity,.stac-about-history,.stac-about-programs,.stac-about-hymn,.stac-about-home-link,.stac-about-preface,.stac-about-seal,.stac-about-department,.stac-about-patron,.stac-program-page__content,.stac-program-page__details,.stac-org-page__summary,.stac-org-page__chart{padding:56px 18px 0;}.stac-about-intro__header h2,.stac-about-purpose__card h2,.stac-about-values__header h2,.stac-about-prayer__header h2,.stac-about-identity__header h2,.stac-about-history__header h2,.stac-about-programs__card h2,.stac-about-hymn__header h2,.stac-about-home-link__inner h2,.stac-about-preface__card h2,.stac-about-seal__header h2,.stac-about-department__header h2,.stac-about-patron__header h2,.stac-program-page__card h2,.stac-program-page__catalog-card h2,.stac-org-page__summary-card h2,.stac-org-page__chart-header h2,.stac-org-admin__topbar h2{font-size:31px;}.stac-about-intro__grid,.stac-about-values__grid,.stac-about-hymn__grid,.stac-about-history__overview,.stac-about-patron__grid,.stac-program-page__grid,.stac-program-page__details-grid,.stac-program-page__catalog,.stac-org-page__summary-grid,.stac-org-page__hero-inner,.stac-org-admin__grid{grid-template-columns:1fr;}.stac-about-purpose__card,.stac-about-prayer__card,.stac-about-home-link__inner,.stac-about-identity__card,.stac-about-objectives__card,.stac-about-history__entry,.stac-about-programs__card,.stac-about-hymn__verse,.stac-about-preface__card,.stac-about-seal__image,.stac-about-seal__fact,.stac-about-department__card,.stac-about-patron__card,.stac-program-page__card,.stac-program-page__catalog-card,.stac-org-page__summary-card,.stac-org-tree__card,.stac-org-admin__content,.stac-org-admin__row{padding:28px 22px;}.stac-about-values__acrostic{grid-template-columns:repeat(9,56px);gap:8px;}.stac-about-values__acrostic span{height:56px;font-size:24px;border-radius:16px;}.stac-about-values__card{min-height:unset;}.stac-about-values__initial{flex-basis:48px;width:48px;height:48px;font-size:22px;border-radius:14px;}.stac-about-home-link{padding-bottom:64px;}.stac-about-home-link__inner{align-items:flex-start;flex-direction:column;}}
 
 
