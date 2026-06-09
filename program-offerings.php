@@ -1,45 +1,43 @@
 <?php
-$pageTitle = 'Program Offerings';
+$pageTitle = 'Departments';
 $bodyClass = 'page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full kingster-with-sticky-navigation kingster-blockquote-style-1 gdlr-core-link-to-lightbox';
 require __DIR__ . '/includes/header.php';
+require_once __DIR__ . '/includes/departments-data.php';
 
-$programPages = [
-    ['title' => 'Bachelor of Science in Office Administration (BSOA)', 'href' => 'program-bsoa.php', 'type' => 'College Program'],
-    ['title' => 'Bachelor in Elementary Education (BEEd)', 'href' => 'program-beed.php', 'type' => 'College Program'],
-    ['title' => 'Bachelor of Science in Business Administration (BSBA-HRM)', 'href' => 'program-bsba-hrm.php', 'type' => 'College Program'],
-    ['title' => 'Bachelor of Science in Information Systems (BSIS)', 'href' => 'program-bsis.php', 'type' => 'College Program'],
-    ['title' => 'Bachelor of Science in Criminology (BSCrim)', 'href' => 'program-bscrim.php', 'type' => 'College Program'],
-    ['title' => 'Senior High School', 'href' => 'program-senior-high-school.php', 'type' => 'Basic Education'],
-    ['title' => 'Junior High School', 'href' => 'program-junior-high-school.php', 'type' => 'Basic Education'],
-    ['title' => 'Elementary Education', 'href' => 'program-elementary-education.php', 'type' => 'Basic Education'],
-    ['title' => 'Pre-Elementary Education', 'href' => 'program-pre-elementary-education.php', 'type' => 'Basic Education'],
-    ['title' => 'TESDA Programs', 'href' => 'program-tesda.php', 'type' => 'Technical-Vocational'],
-];
+$topLevelNodes = [];
+foreach (stac_departments_top_level_keys() as $topLevelKey) {
+    $topLevelNodes[] = stac_departments_node($topLevelKey);
+}
 ?>
 
 <div class="stac-program-page">
     <section class="stac-program-page__hero">
         <div class="stac-program-page__hero-inner">
             <div class="stac-program-page__hero-copy">
-                <span class="stac-program-page__eyebrow">Academic Menu</span>
-                <h1>Program offerings</h1>
-                <p>This listing follows the official program offerings found in the STAC resource document and now serves as the landing page for the header menu.</p>
+                <span class="stac-program-page__eyebrow">Departments</span>
+                <h1>DEPARTMENTS</h1>
             </div>
             <div class="stac-program-page__hero-panel">
-                <span class="stac-program-page__hero-label">Official Scope</span>
-                <strong>College, basic education, and TESDA</strong>
-                <p>Each item opens its own page so labels, people, and details can grow without overloading one section.</p>
+                <span class="stac-program-page__hero-label">Source Page</span>
+                <strong>STAC IZN - DEPARTMENTS</strong>
+                <p><a href="https://sites.google.com/view/stacs-izn/departments?authuser=0" target="_blank" rel="noopener noreferrer">Open Google Site Source</a></p>
             </div>
         </div>
     </section>
 
     <section class="stac-program-page__content">
         <div class="stac-program-page__catalog">
-            <?php foreach ($programPages as $program): ?>
+            <?php foreach ($topLevelNodes as $node): ?>
                 <article class="stac-program-page__catalog-card">
-                    <span class="stac-section-kicker"><?= htmlspecialchars($program['type'], ENT_QUOTES, 'UTF-8') ?></span>
-                    <h2><?= htmlspecialchars($program['title'], ENT_QUOTES, 'UTF-8') ?></h2>
-                    <a href="<?= htmlspecialchars($program['href'], ENT_QUOTES, 'UTF-8') ?>">Open Program Page</a>
+                    <span class="stac-section-kicker">Departments</span>
+                    <h2><?= htmlspecialchars($node['title'], ENT_QUOTES, 'UTF-8') ?></h2>
+                    <ul class="stac-program-page__links">
+                        <?php foreach ($node['children'] as $childKey): ?>
+                            <?php $childNode = stac_departments_node($childKey); ?>
+                            <li><a href="<?= htmlspecialchars($childNode['href'], ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($childNode['title'], ENT_QUOTES, 'UTF-8') ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                    <a href="<?= htmlspecialchars($node['href'], ENT_QUOTES, 'UTF-8') ?>">Open <?= htmlspecialchars($node['title'], ENT_QUOTES, 'UTF-8') ?></a>
                 </article>
             <?php endforeach; ?>
         </div>

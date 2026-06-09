@@ -7,7 +7,7 @@ $programListingText = 'The STAC resource document lists Pre-Elementary Education
 $programContextText = 'This offering sits within the broader STAC educational ladder that includes elementary, junior high school, senior high school, college, and TESDA programs.';
 $programNoteText = 'Since the resource provides only the official listing, this page avoids adding unsupported descriptions about grade groupings or early childhood structure.';
 $programRelatedLinks = [
-    'All Program Offerings' => 'program-offerings.php',
+    'All Departments' => 'program-offerings.php',
     'Institutional Identity' => 'about-us.php#about-identity',
     'Contact STAC' => 'contact.php',
 ];
