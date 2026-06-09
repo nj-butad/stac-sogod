@@ -8,7 +8,7 @@
                         <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                             <div id="text-2" class="widget widget_text kingster-widget">
                                 <div class="textwidget">
-                                    <p><img src="images/stac logo.jpg" alt="" />
+                                    <p><img src="images/stac logo.jpg" alt="Saint Thomas Aquinas College seal" />
                                         <br /> <span class="gdlr-core-space-shortcode" id="span_983a_1"></span>
                                         <br /> Concepcion Street
                                         <br /> Barangay Zone 4
@@ -24,45 +24,50 @@
                         </div>
                         <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                             <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Our Campus</h3><span class="clear"></span>
-                                <div class="menu-our-campus-container">
-                                    <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Acedemic</a></li>
-                                        <li class="menu-item"><a href="#">Planning &#038; Administration</a></li>
-                                        <li class="menu-item"><a href="#">Campus Safety</a></li>
-                                        <li class="menu-item"><a href="#">Office of the Chancellor</a></li>
-                                        <li class="menu-item"><a href="#">Facility Services</a></li>
-                                        <li class="menu-item"><a href="#">Human Resources</a></li>
+                                <h3 class="kingster-widget-title">Site Modules</h3><span class="clear"></span>
+                                <div class="menu-site-modules-container">
+                                    <ul id="menu-site-modules" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
+                                        <li class="menu-item"><a href="index.php">Home</a></li>
+                                        <li class="menu-item"><a href="about-us.php">About</a></li>
+                                        <li class="menu-item"><a href="program-offerings.php">Departments</a></li>
+                                        <li class="menu-item"><a href="offices.php">Offices</a></li>
+                                        <li class="menu-item"><a href="research-publication-and-innovation.php">Research</a></li>
+                                        <li class="menu-item"><a href="sdg-and-gad-office.php">SDG/GAD</a></li>
+                                        <li class="menu-item"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                             <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Campus Life</h3><span class="clear"></span>
-                                <div class="menu-campus-life-container">
-                                    <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Accessibility</a></li>
-                                        <li class="menu-item"><a href="#">Financial Aid</a></li>
-                                        <li class="menu-item"><a href="#">Food Services</a></li>
-                                        <li class="menu-item"><a href="#">Housing</a></li>
-                                        <li class="menu-item"><a href="#">Information Technologies</a></li>
-                                        <li class="menu-item"><a href="#">Student Life</a></li>
+                                <h3 class="kingster-widget-title">Departments</h3><span class="clear"></span>
+                                <div class="menu-departments-container">
+                                    <ul id="menu-departments" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
+                                        <li class="menu-item"><a href="department-college.php">College Department</a></li>
+                                        <li class="menu-item"><a href="program-bsba-hrm.php">Business Administration</a></li>
+                                        <li class="menu-item"><a href="program-bscrim.php">Criminology</a></li>
+                                        <li class="menu-item"><a href="program-bsis.php">Information System</a></li>
+                                        <li class="menu-item"><a href="program-bsoa.php">Office Administration</a></li>
+                                        <li class="menu-item"><a href="program-beed.php">Elementary Education</a></li>
+                                        <li class="menu-item"><a href="department-basic-education.php">Basic Education</a></li>
+                                        <li class="menu-item"><a href="program-tesda.php">TESDA</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
                             <div id="gdlr-core-custom-menu-widget-4" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Academics</h3><span class="clear"></span>
-                                <div class="menu-academics-container">
-                                    <ul id="menu-academics" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Canvas</a></li>
-                                        <li class="menu-item"><a href="#">Catalyst</a></li>
-                                        <li class="menu-item"><a href="#">Library</a></li>
-                                        <li class="menu-item"><a href="#">Time Schedule</a></li>
-                                        <li class="menu-item"><a href="#">Apply For Admissions</a></li>
-                                        <li class="menu-item"><a href="#">Pay My Tuition</a></li>
+                                <h3 class="kingster-widget-title">Offices &amp; Initiatives</h3><span class="clear"></span>
+                                <div class="menu-offices-initiatives-container">
+                                    <ul id="menu-offices-initiatives" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
+                                        <li class="menu-item"><a href="offices.php">Office Directory</a></li>
+                                        <li class="menu-item"><a href="office-registrar.php">Registrar</a></li>
+                                        <li class="menu-item"><a href="office-accounting.php">Accounting Office</a></li>
+                                        <li class="menu-item"><a href="office-student-affairs.php">Student Affairs</a></li>
+                                        <li class="menu-item"><a href="research-journals.php">Journals</a></li>
+                                        <li class="menu-item"><a href="research.php">Research</a></li>
+                                        <li class="menu-item"><a href="research-innovation.php">Innovation</a></li>
+                                        <li class="menu-item"><a href="give-to-kingster.php">Support Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,23 +80,11 @@
                         <div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2026, Saint Thomas Aquinas College</div>
                         <div class="kingster-copyright-right kingster-item-pdlr">
                             <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" id="div_983a_50">
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
+                                <a href="https://www.facebook.com/officiallystac" target="_blank" rel="noopener" class="gdlr-core-social-network-icon" title="Facebook">
                                     <i class="fa fa-facebook" ></i>
                                 </a>
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus">
-                                    <i class="fa fa-google-plus" ></i>
-                                </a>
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
-                                    <i class="fa fa-linkedin" ></i>
-                                </a>
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype">
-                                    <i class="fa fa-skype" ></i>
-                                </a>
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
-                                    <i class="fa fa-twitter" ></i>
-                                </a>
-                                <a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
-                                    <i class="fa fa-instagram" ></i>
+                                <a href="mailto:admin@stacsogod.edu.ph" class="gdlr-core-social-network-icon" title="Email">
+                                    <i class="fa fa-envelope" ></i>
                                 </a>
                             </div>
                         </div>

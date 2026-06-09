@@ -11,7 +11,8 @@ require __DIR__ . '/includes/header.php';
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
                                         <section class="stac-hero-slider" id="stac-hero-slider" aria-label="Homepage banner">
-                                            <div class="stac-hero-slide is-active" style="background-image: url('images/new-banner.jpg');"></div>
+                                            <div class="stac-hero-slide is-active" style="background-image: url('images/latest_banner.jpg');"></div>
+                                            <div class="stac-hero-slide" style="background-image: url('images/new-banner.jpg');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/new-banner2.png');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/banner.jpg');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/banner2.jpg');"></div>
@@ -75,6 +76,18 @@ Begin your journey with Saint Thomas Aquinas College – Sogod today.</p>
                             </div>
                         </div>
                     </div>
+                    <section class="stac-home-video" aria-labelledby="stac-home-video-title">
+                        <div class="stac-home-video__inner">
+                            <div class="stac-home-video__copy">
+                                <span class="stac-home-video__eyebrow">Campus Video</span>
+                                <h2 id="stac-home-video-title">Saint Thomas Aquinas College</h2>
+                                <p>Watch the featured STAC video and get a closer look at the college community, campus life, and Thomasian formation.</p>
+                            </div>
+                            <div class="stac-home-video__frame">
+                                <iframe src="https://drive.google.com/file/d/1tdUXLpl58Kaiuwz5_LYS8HTlweaBIG5a/preview" title="Saint Thomas Aquinas College featured video" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </section>
                     <div class="gdlr-core-pbf-wrapper stac-home-news-grid" style="padding: 10px 0px 100px 0px;">
                         <section class="stac-top-stories" id="stac-top-stories" aria-label="Top stories">
                             <div class="stac-top-stories__label">
@@ -826,36 +839,28 @@ Begin your journey with Saint Thomas Aquinas College – Sogod today.</p>
                                         <section class="stac-program-marquee" aria-label="Program slideshow">
                                             <div class="stac-program-marquee__track">
                                                 <figure class="stac-program-marquee__card">
-                                                    <img src="images/nursing.png" alt="Nursing program" />
-                                                    <figcaption>Nursing</figcaption>
+                                                    <img src="images/college-business-administration-actual.png" alt="Business Administration program" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card">
-                                                    <img src="images/education.png" alt="Education program" />
-                                                    <figcaption>Education</figcaption>
+                                                    <img src="images/college-information-technology-actual.png" alt="Information Technology program" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card">
-                                                    <img src="images/business administration.png" alt="Business Administration program" />
-                                                    <figcaption>Business Administration</figcaption>
+                                                    <img src="images/college-education-actual.png" alt="Education program" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card">
-                                                    <img src="images/information technology.png" alt="Information Technology program" />
-                                                    <figcaption>Information Technology</figcaption>
+                                                    <img src="images/college-office-administration-actual.png" alt="Office Administration program" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card" aria-hidden="true">
-                                                    <img src="images/nursing.png" alt="" />
-                                                    <figcaption>Nursing</figcaption>
+                                                    <img src="images/college-business-administration-actual.png" alt="" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card" aria-hidden="true">
-                                                    <img src="images/education.png" alt="" />
-                                                    <figcaption>Education</figcaption>
+                                                    <img src="images/college-information-technology-actual.png" alt="" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card" aria-hidden="true">
-                                                    <img src="images/business administration.png" alt="" />
-                                                    <figcaption>Business Administration</figcaption>
+                                                    <img src="images/college-education-actual.png" alt="" />
                                                 </figure>
                                                 <figure class="stac-program-marquee__card" aria-hidden="true">
-                                                    <img src="images/information technology.png" alt="" />
-                                                    <figcaption>Information Technology</figcaption>
+                                                    <img src="images/college-office-administration-actual.png" alt="" />
                                                 </figure>
                                             </div>
                                         </section>
