@@ -919,22 +919,10 @@ body .gdlr-core-newsletter-item.gdlr-core-style-rectangle-full .gdlr-core-newsle
 }
 .stac-program-marquee__card img{
     width: 100%;
-    height: 270px;
-    object-fit: cover;
+    aspect-ratio: 820 / 312;
+    height: auto;
+    object-fit: contain;
     display: block;
-}
-.stac-program-marquee__card figcaption{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 14px 16px;
-    color: #ffffff;
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
 }
 .stac-program-marquee:hover .stac-program-marquee__track{
     animation-play-state: paused;
@@ -956,8 +944,7 @@ body .gdlr-core-newsletter-item.gdlr-core-style-rectangle-full .gdlr-core-newsle
         width: min(62vw, 420px);
         min-width: 280px;
     }
-    .stac-program-marquee__card img{height: 230px;}
-    .stac-program-marquee__card figcaption{font-size: 18px;}
+    .stac-program-marquee__card img{height: auto;}
 }
 #span_1dd7_10{margin-top: 5px ;}
 #span_1dd7_11{font-size: 15px; color: #44515c;}
@@ -1108,6 +1095,16 @@ body .gdlr-core-newsletter-item.gdlr-core-style-rectangle-full .gdlr-core-newsle
 @media only screen and (max-width: 1200px){.stac-home-news-grid .gdlr-core-blog-item-holder{grid-template-columns:repeat(3,minmax(0,1fr));}}
 @media only screen and (max-width: 900px){.stac-home-news-grid .gdlr-core-blog-item-holder{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}}
 @media only screen and (max-width: 767px){.stac-home-news-grid .gdlr-core-blog-item-holder{grid-template-columns:1fr;gap:18px;}.stac-home-news-grid .gdlr-core-blog-thumbnail{aspect-ratio: 1 / 1;}.stac-home-news-grid .gdlr-core-blog-modern-content{padding:20px 16px 18px;}}
+.stac-home-video{background:#f4f8fc;padding:78px 20px 82px;}
+.stac-home-video__inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:minmax(260px,360px) minmax(0,1fr);gap:42px;align-items:center;}
+.stac-home-video__copy{min-width:0;}
+.stac-home-video__eyebrow{display:block;margin-bottom:12px;color:#1798da;font-size:14px;font-weight:700;letter-spacing:0;text-transform:uppercase;}
+.stac-home-video__copy h2{margin:0 0 18px;color:#1d2f52;font-size:38px;font-weight:700;line-height:1.16;letter-spacing:0;text-transform:none;}
+.stac-home-video__copy p{margin:0;color:#59697d;font-size:17px;line-height:1.75;}
+.stac-home-video__frame{position:relative;overflow:hidden;aspect-ratio:16 / 9;background:#10294c;box-shadow:0 24px 58px rgba(16,41,76,.18);}
+.stac-home-video__frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;}
+@media only screen and (max-width: 991px){.stac-home-video{padding:60px 18px 66px;}.stac-home-video__inner{grid-template-columns:1fr;gap:28px;}.stac-home-video__copy h2{font-size:32px;}}
+@media only screen and (max-width: 767px){.stac-home-video{padding:46px 18px 52px;}.stac-home-video__copy h2{font-size:27px;}.stac-home-video__copy p{font-size:16px;line-height:1.7;}}
 .stac-elevated-feature{position:relative;z-index:4;max-width:1200px;margin:-54px auto 0;padding:0 0 42px;border-radius:10px;overflow:hidden;}
 .stac-elevated-feature::before{content:"";position:absolute;inset:0 0 42px;border-radius:10px;box-shadow:0 18px 42px rgba(10,20,45,.14);background:#fff;pointer-events:none;}
 .stac-services-strip{position:relative;background:#fff;padding:34px 32px 20px;border-radius:10px 10px 0 0;}
@@ -1262,6 +1259,20 @@ color:#fff;}
 .stac-program-page__links{margin:0;padding-left:20px;color:#516173;}
 .stac-program-page__links li{margin-bottom:12px;font-size:17px;line-height:1.7;}
 .stac-program-page__links a{color:#1798da;font-weight:600;}
+.stac-admin-directory{max-width:var(--stac-program-container-max);margin:0 auto;padding:82px var(--stac-program-container-pad) 86px;}
+.stac-admin-directory__group{margin-bottom:74px;}
+.stac-admin-directory__group:last-child{margin-bottom:0;}
+.stac-admin-directory__heading{text-align:center;margin:0 auto 34px;}
+.stac-admin-directory__heading h2{display:inline-block;position:relative;margin:0;color:#123474;font-size:34px;font-weight:700;line-height:1.18;letter-spacing:0;text-transform:uppercase;}
+.stac-admin-directory__heading h2::after{content:"";display:block;width:86px;margin:16px auto 0;border-bottom:4px solid #f8eb20;}
+.stac-admin-directory__grid{display:flex;flex-wrap:wrap;justify-content:center;gap:38px 30px;}
+.stac-admin-person{flex:0 1 230px;width:100%;max-width:250px;text-align:center;}
+.stac-admin-person__image-wrap{width:176px;height:176px;margin:0 auto 18px;padding:6px;background:#fff;border:1px solid #dbe8f6;border-radius:50%;box-shadow:0 14px 34px rgba(14,32,73,.12);}
+.stac-admin-person__image-wrap img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;}
+.stac-admin-person__body h3{margin:0 0 8px;color:#123474;font-size:18px;font-weight:700;line-height:1.35;letter-spacing:0;text-transform:uppercase;}
+.stac-admin-person__body p{margin:0;color:#516173;font-size:14px;font-weight:600;line-height:1.55;letter-spacing:0;text-transform:uppercase;}
+@media only screen and (max-width: 900px){.stac-admin-directory__heading h2{font-size:30px;}.stac-admin-person{flex-basis:220px;}}
+@media only screen and (max-width: 767px){.stac-admin-directory{padding:56px 18px 64px;}.stac-admin-directory__grid{gap:30px;}.stac-admin-directory__group{margin-bottom:58px;}.stac-admin-directory__heading h2{font-size:25px;}.stac-admin-person{flex-basis:100%;max-width:280px;}.stac-admin-person__image-wrap{width:154px;height:154px;}}
 .stac-org-page{background:linear-gradient(180deg,#f5f9ff 0%,#ffffff 18%,#f7fbff 100%);--stac-org-container-max:1360px;--stac-org-container-pad:20px;}
 .stac-org-page__hero{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(5,22,56,.94) 0%,rgba(12,42,96,.90) 52%,rgba(23,152,218,.84) 100%),url('../upload/about-bg-2.jpg') center center/cover no-repeat;padding:96px var(--stac-org-container-pad) 88px;}
 .stac-org-page__hero-inner,.stac-org-page__summary,.stac-org-page__chart{max-width:var(--stac-org-container-max);margin:0 auto;}

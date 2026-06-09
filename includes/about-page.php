@@ -53,6 +53,38 @@ $heroStyle = sprintf(
         </section>
     <?php endif; ?>
 
+    <?php if (!empty($node['administration_groups'])): ?>
+        <section class="stac-admin-directory" aria-label="Administration directory">
+            <?php foreach ($node['administration_groups'] as $group): ?>
+                <div class="stac-admin-directory__group">
+                    <div class="stac-admin-directory__heading">
+                        <h2><?= htmlspecialchars($group['title'], ENT_QUOTES, 'UTF-8') ?></h2>
+                    </div>
+                    <div class="stac-admin-directory__grid">
+                        <?php foreach (($group['people'] ?? []) as $person): ?>
+                            <?php
+                            $personImage = $person['image'] ?? 'images/stac logo.jpg';
+                            $imagePath = dirname(__DIR__) . '/' . $personImage;
+                            if (!is_file($imagePath)) {
+                                $personImage = 'images/stac logo.jpg';
+                            }
+                            ?>
+                            <article class="stac-admin-person">
+                                <div class="stac-admin-person__image-wrap">
+                                    <img src="<?= htmlspecialchars($personImage, ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($person['name'], ENT_QUOTES, 'UTF-8') ?>" />
+                                </div>
+                                <div class="stac-admin-person__body">
+                                    <h3><?= htmlspecialchars($person['name'], ENT_QUOTES, 'UTF-8') ?></h3>
+                                    <p><?= htmlspecialchars($person['role'], ENT_QUOTES, 'UTF-8') ?></p>
+                                </div>
+                            </article>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </section>
+    <?php endif; ?>
+
     <?php foreach (($node['sections'] ?? []) as $section): ?>
         <section class="stac-program-page__content">
             <article class="stac-program-page__card">
