@@ -11,7 +11,8 @@ require __DIR__ . '/includes/header.php';
                                 <div class="gdlr-core-pbf-element">
                                     <div class="gdlr-core-item-pdlr gdlr-core-item-pdb" style="padding-bottom: 0px;">
                                         <section class="stac-hero-slider" id="stac-hero-slider" aria-label="Homepage banner">
-                                            <div class="stac-hero-slide is-active" style="background-image: url('images/latest_banner.jpg');"></div>
+                                            <div class="stac-hero-slide is-active" style="background-image: url('images/august-2026-banner.jpg');"></div>
+                                            <div class="stac-hero-slide" style="background-image: url('images/latest_banner.jpg');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/new-banner.jpg');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/new-banner2.png');"></div>
                                             <div class="stac-hero-slide" style="background-image: url('images/banner.jpg');"></div>
