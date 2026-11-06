@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  while(walker.nextNode()){if(walker.currentNode.nodeValue.trim()==='STAC_CMS_CONTENT_START')start=walker.currentNode;if(walker.currentNode.nodeValue.trim()==='STAC_CMS_CONTENT_END')end=walker.currentNode;}
  if(!start||!end)return;const range=document.createRange();range.setStartAfter(start);range.setEndBefore(end);const area=document.createElement('div');area.id='stac-cms-edit-area';area.contentEditable='true';range.surroundContents(area);
  let selectedImage=null,selectedBackground=null,savedRange=null;
+ area.addEventListener('input',()=>parent.postMessage({type:'stac-cms-dirty'},location.origin));
  area.addEventListener('click',event=>{if(event.target.closest('a'))event.preventDefault();if(selectedImage)selectedImage.removeAttribute('data-cms-selected');if(selectedBackground)selectedBackground.removeAttribute('data-cms-bg-selected');selectedImage=event.target.closest('img');selectedBackground=null;if(selectedImage)selectedImage.setAttribute('data-cms-selected','true');else for(let node=event.target;node&&node!==area;node=node.parentElement){if(getComputedStyle(node).backgroundImage!=='none'){selectedBackground=node;node.setAttribute('data-cms-bg-selected','true');break;}}parent.postMessage({type:'stac-cms-image-state',selected:!!(selectedImage||selectedBackground)},location.origin);});
  window.addEventListener('message',event=>{
   if(event.origin!==location.origin)return;
@@ -56,6 +57,7 @@ document.addEventListener('DOMContentLoaded',()=>{
    if(event.data.replace&&selectedImage){selectedImage.src=event.data.url;selectedImage.removeAttribute('data-cms-selected');selectedImage=null;parent.postMessage({type:'stac-cms-image-state',selected:false},location.origin);}
    else if(event.data.replace&&selectedBackground){selectedBackground.style.backgroundImage='url("'+event.data.url+'")';selectedBackground.removeAttribute('data-cms-bg-selected');selectedBackground=null;parent.postMessage({type:'stac-cms-image-state',selected:false},location.origin);}
    else {const image=document.createElement('img');image.src=event.data.url;image.alt='';const selection=getSelection();if(savedRange){savedRange.insertNode(image);savedRange=null;}else if(selection?.rangeCount){selection.getRangeAt(0).insertNode(image);}else area.append(image);}
+   parent.postMessage({type:'stac-cms-dirty'},location.origin);
   }
  });
 });
