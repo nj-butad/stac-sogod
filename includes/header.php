@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/cms.php';
+if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+ob_start('stac_cms_render_output');
+?>
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 
@@ -316,3 +321,4 @@
 
             <div class="kingster-page-wrapper" id="kingster-page-wrapper">
                 <div class="gdlr-core-page-builder-body">
+<!-- STAC_CMS_CONTENT_START -->
