@@ -37,20 +37,20 @@ function stac_cms_render_output(string $html): string
     $from = $a + strlen($start);
     $html = substr_replace($html, stac_cms_content($page, substr($html, $from, $b - $from)), $from, $b - $from);
     if (!empty($GLOBALS['stac_cms_visual_preview'])) {
+        $html = str_replace([$start, $end], '', $html);
+        $html = str_replace('<div class="gdlr-core-page-builder-body">', '<div class="gdlr-core-page-builder-body" id="stac-cms-edit-area" contenteditable="true">', $html);
         $html = str_replace('</head>', '<base href="/"></head>', $html);
         $script = <<<'HTML'
 <script>
 document.addEventListener('DOMContentLoaded',()=>{
+ const area=document.getElementById('stac-cms-edit-area');if(!area)return;
  const style=document.createElement('style');style.textContent='#stac-cms-edit-area{outline:2px dashed #1976d2;outline-offset:3px;min-height:20px}#stac-cms-edit-area:focus{outline-style:solid}#stac-cms-edit-area *:hover{outline:1px dashed #1976d2;outline-offset:2px}#stac-cms-edit-area img[data-cms-selected],#stac-cms-edit-area [data-cms-bg-selected]{outline:3px solid #ef9b20;cursor:pointer}';document.head.append(style);
- const walker=document.createTreeWalker(document,NodeFilter.SHOW_COMMENT);let start,end;
- while(walker.nextNode()){if(walker.currentNode.nodeValue.trim()==='STAC_CMS_CONTENT_START')start=walker.currentNode;if(walker.currentNode.nodeValue.trim()==='STAC_CMS_CONTENT_END')end=walker.currentNode;}
- if(!start||!end)return;const range=document.createRange();range.setStartAfter(start);range.setEndBefore(end);const area=document.createElement('div');area.id='stac-cms-edit-area';area.contentEditable='true';range.surroundContents(area);
  let selectedImage=null,selectedBackground=null,savedRange=null;
  area.addEventListener('input',()=>parent.postMessage({type:'stac-cms-dirty'},location.origin));
  area.addEventListener('click',event=>{if(event.target.closest('a'))event.preventDefault();if(selectedImage)selectedImage.removeAttribute('data-cms-selected');if(selectedBackground)selectedBackground.removeAttribute('data-cms-bg-selected');selectedImage=event.target.closest('img');selectedBackground=null;if(selectedImage)selectedImage.setAttribute('data-cms-selected','true');else for(let node=event.target;node&&node!==area;node=node.parentElement){if(getComputedStyle(node).backgroundImage!=='none'){selectedBackground=node;node.setAttribute('data-cms-bg-selected','true');break;}}parent.postMessage({type:'stac-cms-image-state',selected:!!(selectedImage||selectedBackground)},location.origin);});
  window.addEventListener('message',event=>{
   if(event.origin!==location.origin)return;
-  if(event.data?.type==='stac-cms-read-content'){const copy=area.cloneNode(true);copy.querySelectorAll('[data-cms-selected],[data-cms-bg-selected]').forEach(image=>{image.removeAttribute('data-cms-selected');image.removeAttribute('data-cms-bg-selected');});parent.postMessage({type:'stac-cms-content',content:copy.innerHTML},location.origin);}
+  if(event.data?.type==='stac-cms-read-content'){const copy=area.cloneNode(true);copy.removeAttribute('id');copy.removeAttribute('contenteditable');copy.querySelectorAll('[data-cms-selected],[data-cms-bg-selected]').forEach(image=>{image.removeAttribute('data-cms-selected');image.removeAttribute('data-cms-bg-selected');});parent.postMessage({type:'stac-cms-content',content:copy.innerHTML},location.origin);}
   if(event.data?.type==='stac-cms-store-selection'){const selection=getSelection();savedRange=selection?.rangeCount?selection.getRangeAt(0).cloneRange():null;}
   if(event.data?.type==='stac-cms-command'){area.focus();document.execCommand(event.data.command,false,null);}
   if(event.data?.type==='stac-cms-image-uploaded'){
