@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  },true);
  window.addEventListener('message',event=>{
   if(event.origin!==location.origin)return;
-  if(event.data?.type==='stac-cms-read-content'){const copy=area.cloneNode(true);copy.removeAttribute('id');copy.removeAttribute('contenteditable');copy.querySelectorAll('[data-cms-selected],[data-cms-bg-selected]').forEach(image=>{image.removeAttribute('data-cms-selected');image.removeAttribute('data-cms-bg-selected');});parent.postMessage({type:'stac-cms-content',content:copy.innerHTML},location.origin);}
+  if(event.data?.type==='stac-cms-read-content'){const copy=area.cloneNode(true);copy.removeAttribute('id');copy.removeAttribute('contenteditable');copy.querySelectorAll('[data-cms-selected],[data-cms-bg-selected],[data-cms-gallery-index]').forEach(image=>{image.removeAttribute('data-cms-selected');image.removeAttribute('data-cms-bg-selected');image.removeAttribute('data-cms-gallery-index');});parent.postMessage({type:'stac-cms-content',content:copy.innerHTML},location.origin);}
   if(event.data?.type==='stac-cms-store-selection'){const selection=getSelection();savedRange=selection?.rangeCount?selection.getRangeAt(0).cloneRange():null;}
   if(event.data?.type==='stac-cms-command'){area.focus();document.execCommand(event.data.command,false,null);}
   if(event.data?.type==='stac-cms-image-uploaded'){
