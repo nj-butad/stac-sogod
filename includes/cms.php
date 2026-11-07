@@ -39,12 +39,12 @@ function stac_cms_render_output(string $html): string
     if (!empty($GLOBALS['stac_cms_visual_preview'])) {
         $html = str_replace([$start, $end], '', $html);
         $html = str_replace('<div class="gdlr-core-page-builder-body">', '<div class="gdlr-core-page-builder-body" id="stac-cms-edit-area" contenteditable="true">', $html);
-        $html = str_replace('</head>', '<base href="/"></head>', $html);
+        $html = str_replace('<head>', '<head><base href="/">', $html);
         $script = <<<'HTML'
 <script>
 document.addEventListener('DOMContentLoaded',()=>{
  const area=document.getElementById('stac-cms-edit-area');if(!area)return;
- const style=document.createElement('style');style.textContent='#stac-cms-edit-area{outline:2px dashed #1976d2;outline-offset:3px;min-height:20px}#stac-cms-edit-area:focus{outline-style:solid}#stac-cms-edit-area *:hover{outline:1px dashed #1976d2;outline-offset:2px}#stac-cms-edit-area img[data-cms-selected],#stac-cms-edit-area [data-cms-bg-selected]{outline:3px solid #ef9b20;cursor:pointer}';document.head.append(style);
+ const style=document.createElement('style');style.textContent='header,footer{display:none!important}#stac-cms-edit-area{outline:2px dashed #1976d2;outline-offset:3px;min-height:20px}#stac-cms-edit-area:focus{outline-style:solid}#stac-cms-edit-area *:hover{outline:1px dashed #1976d2;outline-offset:2px}#stac-cms-edit-area img[data-cms-selected],#stac-cms-edit-area [data-cms-bg-selected]{outline:3px solid #ef9b20;cursor:pointer}';document.head.append(style);
  let selectedImage=null,selectedBackground=null,savedRange=null;
  area.addEventListener('input',()=>parent.postMessage({type:'stac-cms-dirty'},location.origin));
  area.addEventListener('click',event=>{if(event.target.closest('a'))event.preventDefault();if(selectedImage)selectedImage.removeAttribute('data-cms-selected');if(selectedBackground)selectedBackground.removeAttribute('data-cms-bg-selected');selectedImage=event.target.closest('img');selectedBackground=null;if(selectedImage)selectedImage.setAttribute('data-cms-selected','true');else for(let node=event.target;node&&node!==area;node=node.parentElement){if(getComputedStyle(node).backgroundImage!=='none'){selectedBackground=node;node.setAttribute('data-cms-bg-selected','true');break;}}parent.postMessage({type:'stac-cms-image-state',selected:!!(selectedImage||selectedBackground)},location.origin);});
