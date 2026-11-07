@@ -29,7 +29,11 @@ function stac_cms_content(string $page, string $fallback): string
 
 function stac_cms_render_output(string $html): string
 {
-    $page = $GLOBALS['stac_cms_preview_page'] ?? basename(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH) ?: ($_SERVER['SCRIPT_NAME'] ?? 'index.php'));
+    $page = $GLOBALS['stac_cms_preview_page'] ?? '';
+    if ($page === '') {
+        $page = basename(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH) ?: ($_SERVER['SCRIPT_NAME'] ?? 'index.php'));
+        if ($page === '') $page = 'index.php';
+    }
     $start = '<!-- STAC_CMS_CONTENT_START -->';
     $end = '<!-- STAC_CMS_CONTENT_END -->';
     $a = strpos($html, $start); $b = strpos($html, $end);
