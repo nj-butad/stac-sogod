@@ -19,8 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 $_SESSION['csrf'] ??= bin2hex(random_bytes(32));
-$pages = array_values(array_filter(glob(__DIR__ . '/../*.php'), fn($f) => !in_array(basename($f), ['organizational-structure-admin.php'], true)));
-$pageNames = array_map('basename', $pages);
+$pageNames = stac_cms_editable_pages();
 $selected = in_array($_GET['page'] ?? '', $pageNames, true) ? $_GET['page'] : 'index.php';
 ?><!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>STAC Site Editor</title>
 <style>
@@ -30,7 +29,7 @@ $selected = in_array($_GET['page'] ?? '', $pageNames, true) ? $_GET['page'] : 'i
 <p><?= $hasAdmin ? 'Enter your admin password.' : 'Create the owner password. It will be stored securely as a hash in the Hostinger database.' ?></p><?php if (!empty($error)): ?><p class="notice error"><?= htmlspecialchars($error) ?></p><?php endif; ?>
 <form class="login" method="post"><input type="hidden" name="csrf" value="<?= htmlspecialchars($_SESSION['csrf']) ?>"><label><?= $hasAdmin ? 'Password' : 'Create password (12+ characters)' ?></label><input type="password" name="<?= $hasAdmin ? 'password' : 'new_password' ?>" required minlength="<?= $hasAdmin ? 1 : 12 ?>" autocomplete="<?= $hasAdmin ? 'current-password' : 'new-password' ?>"><button><?= $hasAdmin ? 'Log in' : 'Set admin password' ?></button></form>
 <?php else: ?>
-<div class="editor"><aside class="panel"><label class="label" for="page">1. Choose a page</label><select id="page" aria-label="Choose page"><?php foreach ($pageNames as $p): ?><option value="<?= htmlspecialchars($p) ?>" <?= $p === $selected ? 'selected' : '' ?>><?= htmlspecialchars(match($p) { 'index.php' => 'Home page', default => ucwords(str_replace(['-', '.php'], [' ', ''], $p)) }) ?></option><?php endforeach; ?></select>
+<div class="editor"><aside class="panel"><label class="label" for="page">1. Choose a page</label><select id="page" aria-label="Choose page"><?php foreach ($pageNames as $p): ?><option value="<?= htmlspecialchars($p) ?>" <?= $p === $selected ? 'selected' : '' ?>><?= htmlspecialchars(match($p) { 'index.php' => 'Home page', 'apply-to-kingster.php' => 'Apply Now', 'give-to-kingster.php' => 'Support Us', default => ucwords(str_replace(['-', '.php'], [' ', ''], $p)) }) ?></option><?php endforeach; ?></select>
 <ol class="steps"><li><b>Edit words:</b> click text in the page and type.</li><li><b>Change a picture:</b> click it, then choose the picture button below.</li><li><b>Keep your changes:</b> click Save before leaving.</li></ol>
 <div class="toolbar"><span class="label">Text style</span><span class="tools"><button type="button" data-command="bold" title="Bold selected text"><b>B</b></button><button type="button" data-command="italic" title="Italic selected text"><i>I</i></button><button type="button" data-command="underline" title="Underline selected text"><u>U</u></button></span><button type="button" id="insert-image">Add picture at cursor</button><button type="button" id="replace-image" disabled>Replace selected picture</button><input type="file" id="image-file" accept="image/jpeg,image/png,image/webp,image/gif" hidden><button type="button" class="primary" id="save">Save changes</button><a target="_blank" href="../<?= rawurlencode($selected) ?>">View live page ↗</a></div><span id="status" class="status" role="status" aria-live="polite">Click text in the page preview to begin editing.</span></aside>
 <section class="preview-panel"><p class="hint">Click words to edit them. Click a picture to select it. To add a picture, click where it should go first.</p><iframe id="preview" title="Editable page preview" src="preview.php?page=<?= rawurlencode($selected) ?>"></iframe></section></div>

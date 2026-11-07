@@ -27,6 +27,16 @@ function stac_cms_content(string $page, string $fallback): string
     } catch (Throwable $e) { return $fallback; }
 }
 
+function stac_cms_editable_pages(): array
+{
+    $excluded = ['404.php', 'index2.php', 'coming-soon.php', 'maintenance.php', 'contact-2.php', 'contact-3.php', 'singleportfolio.php', 'standard-post-type.php', 'price-table.php', 'art-science.php', 'athletics.php', 'campus-tour.php', 'engineering.php', 'finance-faculty.php', 'hospitality-management.php', 'introduction-to-financial-accounting.php', 'john-hagensy-phd.php', 'medicine.php', 'physics.php', 'organizational-structure-admin.php'];
+    $files = glob(dirname(__DIR__) . '/*.php') ?: [];
+    return array_values(array_map('basename', array_filter($files, static function (string $file) use ($excluded): bool {
+        $name = basename($file);
+        return !in_array($name, $excluded, true) && !preg_match('/^(blog-|portfolio-)/', $name);
+    })));
+}
+
 function stac_cms_render_output(string $html): string
 {
     $page = $GLOBALS['stac_cms_preview_page'] ?? '';
